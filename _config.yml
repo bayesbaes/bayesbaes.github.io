@@ -28,7 +28,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bayesbaes
 github_username:  bayesbaes
-
+collections:
+  tutorials:
+    title: Tutorials
+    output: true
+    permalink: "/:collection/:title"
 # Build settings
 theme: minima
 plugins:
