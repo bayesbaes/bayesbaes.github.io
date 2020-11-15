@@ -1,13 +1,14 @@
-- title: "Home"
-  href: "/"
+- title: Home
+  url: /
 
-- title: "About"
-  subcategories:
-    - subtitle: "People"
-      subhref: "/about/people/"
+- title: About
+  url: /about/
+  sublinks:
+    -title: People
+     url: /people/
 
-- title: "Tutorials"
-  href: "/tutorials/"
+- title: Tutorials
+  url: /tutorials/
   
-- title: "Search"
-  href: "/search"
+- title: Search
+  url: /search/
