@@ -5,3 +5,12 @@ permalink: /tutorials/
 ---
 
 This is the landing page for all of our tutorials.
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
