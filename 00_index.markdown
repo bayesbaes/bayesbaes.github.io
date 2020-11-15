@@ -2,8 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: manual_home
-permalink: /
+layout: home
+permalink: bayesbaes.github.io
 title: Home
 
 ---
