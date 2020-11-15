@@ -6,6 +6,7 @@
   sublinks:
     -title: People
      url: /people/
+    -title: separator
 
 - title: Tutorials
   url: /tutorials/
