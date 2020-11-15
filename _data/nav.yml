@@ -1,0 +1,13 @@
+- title: "Home"
+  href: "/"
+
+- title: "About"
+  subcategories:
+    - subtitle: "People"
+      subhref: "/about/people/"
+
+- title: "Tutorials"
+  href: "/tutorials/"
+  
+- title: "Search"
+  href: "/search"
