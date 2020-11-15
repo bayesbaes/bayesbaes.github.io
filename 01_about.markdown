@@ -13,5 +13,5 @@ Or you can find the Baes on Github and at their personal sites:
 [Helen's Github](https://github.com/helenfyan) /
 [Helen's Personal Site](https://https://helenfyan.weebly.com)
 [Hannah's Github](https://github.com/hannahvwatkins)/
-[Hannah's Personal Site] (https://hannahvwatkins.weebly.com)
+[Hannah's Personal Site](https://hannahvwatkins.weebly.com)
 
