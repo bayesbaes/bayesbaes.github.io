@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Who Are We?
-permalink: /about/people/
+permalink: /people/
 ---
 
 Howdy friends, we're the Baes.
