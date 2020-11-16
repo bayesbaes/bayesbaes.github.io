@@ -3,9 +3,9 @@
 
 - title: About
   url: /about/
-  sublinks:
+  subpages:
     - title: Who Are We?
-      url: /people/
+      url: /about/people/
 
 - title: Tutorials
   url: /tutorials/
