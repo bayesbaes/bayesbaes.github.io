@@ -2,55 +2,50 @@
 @import "main";
 
 
-/* NAVIGATION BAR
- -------------------------------------------------- */
-#navigation {
-    min-height: 70px !important;
-    padding-top: 10px;
-}
-#navigation .navbar-brand {
-    padding-right: 28px;
-    width: 280px;
-    border-right: 3px solid rgba(255, 255, 255, 0.1);
-    font-family: "hobo-std", sans-serif;
-    font-style: italic;
-    font-size: 26px !important;
-    color: #5fcf80 !important;
-}
-#navigation .navbar-brand .site-logo {
-    float: left;
-    margin-top: -10px;
-    margin-right: 1rem;
-    width: 250px;
-}
-#navigation #navbar {
-    float: right !important;
-    margin-right: -15px;
-    font-family: 'Helvetica Rounded', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 38px;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .5) !important;
-}
-@media (max-width: 768px) {
-    #navigation #navbar {
-        float: none !important;
-        margin-right: 0;
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Minima also includes a mixin for defining media queries.
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+// Import partials from the `minima` theme.
+
+ul.search {
+    list-style-type: none;
+    padding: 0px;
+
+    li {
+        display: inline-block;
     }
-}
-#navigation #navbar .navbar-nav li a {
-    color: #b2bbbd !important;
-}
-#navigation #navbar .navbar-nav li a:hover,
-#navigation #navbar .navbar-nav li a:focus {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-}
-#navigation #navbar .navbar-nav .active a {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-}
-#navigation #navbar .navbar-nav .dropdown-menu li a {
-    color: #515151 !important;
-    text-shadow: none !important;
 }
