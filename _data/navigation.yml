@@ -5,7 +5,7 @@
   url: /about/
   sublinks:
     - title: Who Are We?
-      url: /people/
+      url: about/people/
 
 - title: Tutorials
   url: /tutorials/
