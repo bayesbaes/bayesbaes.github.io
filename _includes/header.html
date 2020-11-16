@@ -1,36 +1,28 @@
-<!-- Fixed navbar -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">Bayes' Baes</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/about/">About</a></li>
-                <li><a href="{{ site.baseurl }}/tutorials/">Tutorials</a></li>
-                <li><a href="{{ site.baseurl }}/search">Search</a></li>
-                <li class="dropdown"> -->
-                     <a href="#" class="dropdown&#45;toggle" data&#45;toggle="dropdown" role="button" aria&#45;haspopup="true" aria&#45;expanded="false">Dropdown <span class="caret"></span></a> -->
-                    <ul class="dropdown&#45;menu"> -->
-                         <li><a href="#">Action</a></li> -->
-                         <li><a href="#">Another action</a></li> -->
-                         <li><a href="#">Something else here</a></li> -->
-                         <li role="separator" class="divider"></li> -->
-                         <li class="dropdown&#45;header">Nav header</li> -->
-                         <li><a href="#">Separated link</a></li> -->
-                         <li><a href="#">One more separated link</a></li> -->
-                     </ul> -->
-                 </li> -->
-            </ul>
-        </div><!--/.nav-collapse -->
-    </div>
-</nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Bayes' Baes</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<div class="container theme-showcase" role="main">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="/about/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/people/">Who are we?</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/tutorials/">Tutorials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/search/">Search</a>
+      </li>
+    </ul>
+  </div>
+</nav>
