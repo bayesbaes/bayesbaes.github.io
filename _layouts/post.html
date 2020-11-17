@@ -4,20 +4,21 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <div class = "container">
-    <div class = "col">
-      ###Tags
-      {% for tag in site.tags %}  
-          <a class="btn btn-primary" href="/tutorials/browse-by-tag/" role="button">{{ tag[0] }}</a>
-      {% endfor %}
-      </div>
+    <div class = "row">
+      <div class = "col">
+        ### Tags
+        {% for tag in site.tags %}  
+           <a class="btn btn-primary" href="/tutorials/browse-by-tag/" role="button">{{ tag[0] }}</a>
+       {% endfor %}
+        </div>
   
-    <div class = "col-7">
-      <div class="post-content e-content" itemprop="articleBody">
-        {{ content }}
+     <div class = "col-7">
+       <div class="post-content e-content" itemprop="articleBody">
+          {{ content }}
+        </div>
       </div>
-    </div>
-  </div>
-    
+   </div>
+ </div> 
     
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
