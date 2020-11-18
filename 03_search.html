@@ -6,22 +6,8 @@ permalink: /search/
 
 Enter a keyword in the search bar below to see if we have a tutorial on a topic you're interested in!
 
-<!-- Html Elements for Search -->
-<div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
-<ul id="results-container"></ul>
-</div>
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 
-<!-- Script pointing to search-script.js -->
-<script src="/js/search-script.js" type="text/javascript"></script>
-
-<!-- Configuration -->
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json'
-})
-</script>
 
 If you don't see what you're looking for, check out the Browse Tutorial bar to see what we do have or get in touch with us to request a tutorial.
