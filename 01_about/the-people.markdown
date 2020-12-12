@@ -18,11 +18,11 @@ Or you can find the Baes on Github and at their personal sites:
 
 <ul>
   {% for author in site.authors %}
-    <li>
-      <h2>{{ author.name }}</h2>
-      <h3>{{ author.position }}</h3>
+    <div>
+      <h4>{{ author.name }}</h4>
+      <h5>{{ author.position }}</h5>
       <p>{{ author.content | markdownify }}</p>
-    </li>
+    </div>
   {% endfor %}
 </ul>
 
