@@ -15,7 +15,7 @@ layout: default
         <div class = "affix">
         <h3> Tags </h3>
         {% for tag in page.tags %}  
-           <a class="btn btn-primary" href="/tutorials/browse-by-tag/" role="button">{{ tag[0] }}</a>
+           <a class="btn btn-primary" href="/tutorials/browse-by-tag/" role="button">{{ tag }}</a>
        {% endfor %}
         <h3> Author </h3>
          {% assign author = site.authors | where: 'title', page.author | first %}
