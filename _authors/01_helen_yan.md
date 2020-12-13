@@ -1,5 +1,4 @@
 ---
-short_name: helen
 name: Helen Yan
 position: Co-founder and Tutorial Writer
 ---
