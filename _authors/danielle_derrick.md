@@ -7,5 +7,5 @@ position: Illustrator
 This is a blurb about Danielle. And here's a picture:
 
 <div class="container">
-  <img src="/assets/images/about_photo_DD.JPG" class="img-fluid" alt="Responsive image">
+  <img src="/assets/images/about_photo_DD.jpg" class="img-fluid" alt="Responsive image">
 </div>
