@@ -5,7 +5,7 @@ position: Tutorial Writer
 ---
 
 
-Here's where you'll write your blurb. And here's a picture:
+Here's where you'll write your blurb. And here's how to add a picture:
 
 
 <div class="container">
