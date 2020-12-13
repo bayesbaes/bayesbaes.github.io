@@ -18,9 +18,10 @@ layout: default
            <a class="btn btn-primary" href="/tutorials/browse-by-tag/" role="button">{{ tag[0] }}</a>
        {% endfor %}
         <h3> Author </h3>
-        {% for short_name in site.short_name %}  
-           <a class="btn btn-primary" href="/people/" role="button">{{ short_name[0] }}</a>
-       {% endfor %}  
+         {% assign author = site.authors | where: 'title', page.author | first %}
+         {% if author %}
+        <a class="btn btn-primary" href="/people/" role="button">{{ author.title }}</a>
+         {% endif %}
          </div>
        </div>
   
