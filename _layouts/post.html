@@ -14,7 +14,7 @@ layout: default
       <div class = "col text-black" style="background-color: #e3f2fd;">
         <div class = "affix">
         <h3> Tags </h3>
-        {% for tag in site.tags %}  
+        {% for tag in page.tags %}  
            <a class="btn btn-primary" href="/tutorials/browse-by-tag/" role="button">{{ tag[0] }}</a>
        {% endfor %}
         <h3> Author </h3>
