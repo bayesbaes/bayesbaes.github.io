@@ -1,5 +1,4 @@
 ---
-short_name: hannah
 name: Hannah Watkins
 position: Co-founder and Tutorial Writer
 ---
