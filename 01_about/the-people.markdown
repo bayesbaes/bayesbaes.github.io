@@ -11,8 +11,8 @@ Bayes' Baes is a resource run by and for biologists. Collaboration is the key to
   <div class = "col-6">
     <ul>
       {% for author in site.authors %}
-          {% assign mod = forloop.index | modulo: 2 %}
-          {% if mod != 0 %}
+          {% assign mod = forloop.index %}
+          {% if mod == 1 %}
         <div>
            <h4>{{ author.name }}</h4>
             <h5>{{ author.position }}</h5>
@@ -25,8 +25,8 @@ Bayes' Baes is a resource run by and for biologists. Collaboration is the key to
   <div class = "col-6">
     <ul>
       {% for author in site.authors %}
-      {% assign mod = forloop.index | modulo: 2 %}
-          {% if mod == 0 %}
+      {% assign mod = forloop.index %}
+          {% if mod == 2 %}
         <div>
            <h4>{{ author.name }}</h4>
             <h5>{{ author.position }}</h5>
