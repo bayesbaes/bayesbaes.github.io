@@ -28,7 +28,7 @@ twitter_username: bayesbaes
 github_username:  bayesbaes
 search: true
 collections:
-  authors: 
+  - authors
 # Build settings
 theme: minima
 plugins:
