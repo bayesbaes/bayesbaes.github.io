@@ -29,6 +29,7 @@ github_username:  bayesbaes
 search: true
 collections:
   - authors
+  - projects
 # Build settings
 theme: minima
 plugins:
