@@ -8,8 +8,6 @@ layout: default
 }
 </style>
 
-{% if page.author %}Written by: {{page.author}}{% endif %}
-
 <main class="page-content" aria-label="Content">
   <div class = "container-fluid">
     <div class = "row">
@@ -23,6 +21,7 @@ layout: default
          {% for author in page.authors %}
             <a class="btn btn-primary" href="/people/" role="button">{{ author.name }}</a>
          {% endfor %}
+           {% if page.author %}Written by: {{page.author}}{% endif %}
          </div>
        </div>
   
