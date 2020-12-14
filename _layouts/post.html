@@ -17,10 +17,9 @@ layout: default
         {% for tag in page.tags %}  
            <a class="btn btn-primary" href="/tutorials/browse-by-tag/" role="button">{{ tag }}</a>
        {% endfor %}
-        <h3> Author </h3>
+        <h3> Author Written by: {{page.authors}}</h3>
          {% for author in page.authors %}
-            <a class="btn btn-primary" href="/people/" role="button">{{ author.name }}</a>
-                      Written by: {{page.author}}
+           <a class="btn btn-primary" href="/people/" role="button">{{ author.name }}</a>
          {% endfor %}
          </div>
        </div>
