@@ -13,14 +13,14 @@ layout: default
     <div class = "row">
       <div class = "col text-black" style="background-color: #e3f2fd;">
         <div class = "affix">
-        <h3> Tags </h3>
-        {% for tag in page.tags %}  
-           <a class="btn btn-primary" href="/tutorials/browse-by-tag/" role="button">{{ tag }}</a>
-       {% endfor %}
         <h3> Author </h3>
          {% for author in page.authors %}
            <a class="btn btn-primary" href="/people/" role="button">{{ author }}</a>
          {% endfor %}
+        <h3> Tags </h3>
+        {% for tag in page.tags %}  
+           <a class="btn btn-primary" href="/tutorials/browse-by-tag/" role="button">{{ tag }}</a>
+       {% endfor %}
          </div>
        </div>
   
