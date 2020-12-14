@@ -37,6 +37,7 @@ Bayes' Baes is a resource run by and for biologists. Collaboration is the key to
     </ul>
    </div> 
 </div>
+<hr/>
 <h3>Guest Baes</h3>
  <ul>
       {% for author in site.authors %}
