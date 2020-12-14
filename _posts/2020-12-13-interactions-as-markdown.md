@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Interactions md"
+date:   2020-11-12 12:51:00 -0800
+categories: tutorials
+tags: stats fundamentals
+authors: Hannah Watkins
+---
+
 One of the most common questions that comes up in stats help discussions
 is “how do I interpret my interaction term?” (or its cousin “why are my
 main effects not significant anymore when I add an interaction?”). And I
