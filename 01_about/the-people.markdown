@@ -14,7 +14,7 @@ Bayes' Baes is a resource run by and for biologists. Collaboration is the key to
           {% assign mod = forloop.index %}
           {% if mod == 1 %}
         <div>
-            <p>Written by: {{site.authors}}</p>
+            <p>Written by: {{author}}</p>
             <h4>{{ author.name }}</h4>
             <h5>{{ author.position }}</h5>
             <p>{{ author.content | markdownify }}</p>
