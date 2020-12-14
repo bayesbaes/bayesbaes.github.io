@@ -1,5 +1,5 @@
 ---
-author: Hannah Watkins
+author: hannah_watkins
 name: Hannah Watkins
 position: Co-founder and Tutorial Writer
 ---
