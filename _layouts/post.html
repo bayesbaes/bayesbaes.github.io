@@ -20,8 +20,8 @@ layout: default
         <h3> Author </h3>
          {% for author in page.authors %}
             <a class="btn btn-primary" href="/people/" role="button">{{ author.name }}</a>
+                      {% if page.author %}Written by: {{page.author}}{% endif %}
          {% endfor %}
-           {% if page.author %}Written by: {{page.author}}{% endif %}
          </div>
        </div>
   
