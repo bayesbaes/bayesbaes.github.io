@@ -1,4 +1,8 @@
-
+---
+layout: page
+title: How to use this site
+permalink: /how-to/
+---
 <h2>How to use this site</h2>
 
 There are a few ways we'd recommend using this site, depending on what kind of support you need. Each tutorial has a set of tags and project types associated with it that will appear on the left hand side of the page when you open a post. **Tags** refer to the topic or subtopic covered in a post (e.g., "data cleaning" or "fundamentals"), while **project types** refer to common analyses that a given tutorial may be useful for (e.g., "generalized linear modelling" or "mixed effects models").
