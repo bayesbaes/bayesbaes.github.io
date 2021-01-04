@@ -17,13 +17,3 @@ footer {
   background-color: #e3f2fd;  
   }
 </style>
-// Import partials from the `minima` theme.
-
-ul.search {
-    list-style-type: none;
-    padding: 0px;
-
-    li {
-        display: inline-block;
-    }
-}
