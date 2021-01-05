@@ -11,10 +11,9 @@ body {
 }
 
 .footer {
+  position: absolute;
   margin-top: auto;
   padding: 20px 10px;
 } 
-.footer . container {
-  background-color: #e3f2fd;  
-  }
+
 </style>
