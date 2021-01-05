@@ -1,6 +1,6 @@
 
 .post-style {
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: "Helvetica Neue";
+  font-size: 16px                 !important;
+  line-height: 1.5                !important;
+  font-family: "Helvetica Neue"   !important;
 }
