@@ -9,10 +9,11 @@ body {
   flex-flow: column;
 }
 
-.footer {
+footer {
   position: absolute;
   margin-top: auto;
   padding: 20px 10px;
+  bottom: 0;
 } 
 
 </style>
