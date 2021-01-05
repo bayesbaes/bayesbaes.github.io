@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: What's the project about?
 permalink: /the-project/
 ---
