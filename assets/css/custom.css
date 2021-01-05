@@ -1,16 +1,1 @@
-<style>
 
-body {
-  display: flex;
-  flex-flow: column;
-  min-height: 100vh;
-}
-
-footer {
-  position: fixed;
-  margin-top: auto;
-  padding: 20px 10px;
-  bottom: 0;
-} 
-
-</style>
