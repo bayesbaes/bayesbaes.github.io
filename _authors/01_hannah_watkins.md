@@ -1,7 +1,7 @@
 ---
 author: hannah_watkins
 name: Hannah Watkins
-position: Co-founder and Tutorial Writer
+position: Co-founder, Tutorial Writer, and Web Designer
 ---
 
 This is a blurb about Hannah. And here's a picture:
