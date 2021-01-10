@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Interactions Tutorial Markdown 2
-author: Hannah Watkins
+title: "Interactions Tutorial Markdown 2"
+authors: Hannah Watkins
 tags: stats coding
 ---
 
