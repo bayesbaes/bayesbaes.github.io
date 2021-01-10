@@ -28,7 +28,7 @@ This is the part inside the dashes, which is necessary for the website to read y
 
 This is the part inside the backticks. This part seems weird, but it's **super** important if you have any images or figures in your markdown! When you knit your RMarkdown to a .md file, it will create a folder of images that the markdown refers to. If you don't include this setup bit, that folder will be created automatically and Github Pages won't properly reference it, so your tutorial will appear without images. To reference this folder properly, you'll need to define your base directory, base url, and figure path. Your base directory is just your working directory, which you can check with getwd() (mine all look like "C:/Users/hannah/etc/etc/etc"). Then, manually set base.url to "/". This will put a / in front of all the filepaths that your markdown references, which is important for Github Pages. Finally, you'll create the figure path, which **must** start with "figures/". You can make up a name in the "your_tutorial_name/" section and make sure to include the / at the end. Below that, you'll then use the knitr package to set the defaults for the base directory and image path.
 
-#### Putting your files in our repo
+### Putting your files in our repo
 
 All of that weird code will create a folder (*your_tutorial_name*) of all your figures in your working directory that is located inside a folder named *figures*. You can copy the entire folder ("your_tutorial_name") and put it in our own **figures** folder in our repo.
 
