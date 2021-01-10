@@ -18,13 +18,13 @@ knitr::opts_knit$set(base.dir = base.dir, base.url = base.url)
 knitr::opts_chunk$set(fig.path = fig.path) 
 ```
 
-To see this file with the proper syntax, make sure to select "Raw" when viewing it. Please include all of the information listed above at the very start of any tutorial post you make in markdown, filling in the relevant info for your specific post. 
+**To see this file with the proper syntax, make sure to select "Raw" when viewing it. Please include all of the information listed above at the very start of any tutorial post you make in markdown, filling in the relevant info for your specific post. **
 
-#### Front matter
+### Front matter
 
 This is the part inside the dashes, which is necessary for the website to read your tutorial in as a post. Keep the *layout* and *output* sections exactly as written here, then customize the *title*, *authors*, and *tags*. For the tags, you can search our site to see how we categorize our posts, or use your own tags as you see fit. We may change these as our site grows and we reorganize things. If you have more than one author on a post, add additional authors with a space and a new set of quotation marks.
 
-#### Markdown setup
+### Markdown setup
 
 This is the part inside the backticks. This part seems weird, but it's **super** important if you have any images or figures in your markdown! When you knit your RMarkdown to a .md file, it will create a folder of images that the markdown refers to. If you don't include this setup bit, that folder will be created automatically and Github Pages won't properly reference it, so your tutorial will appear without images. To reference this folder properly, you'll need to define your base directory, base url, and figure path. Your base directory is just your working directory, which you can check with getwd() (mine all look like "C:/Users/hannah/etc/etc/etc"). Then, manually set base.url to "/". This will put a / in front of all the filepaths that your markdown references, which is important for Github Pages. Finally, you'll create the figure path, which **must** start with "figures/". You can make up a name in the "your_tutorial_name/" section and make sure to include the / at the end. Below that, you'll then use the knitr package to set the defaults for the base directory and image path.
 
