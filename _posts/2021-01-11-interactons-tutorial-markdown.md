@@ -77,7 +77,7 @@ df <- bind_rows(females, males)
 Let’s briefly look at this data to see if we notice any obvious
 patterns.
 
-![](./assets/images/interactions_tutorial/plot%20the%20data-1.png)![](./assets/images/interactions_tutorial/plot%20the%20data-2.png)
+![](../assets/images/interactions_tutorial/plot%20the%20data-1.png)![](../assets/images/interactions_tutorial/plot%20the%20data-2.png)
 
 Here we can see that males clearly have larger home range sizes than
 females, and that their home ranges increase with increasing body size,
