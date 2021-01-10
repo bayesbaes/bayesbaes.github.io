@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Interactions Tutorial Markdown 2"
+authors: Hannah Watkins
+tags: stats coding
+---
+
 One of the most common questions that comes up in stats help discussions
 is “how do I interpret my interaction term?” (or its cousin “why are my
 main effects not significant anymore when I add an interaction?”). And I
