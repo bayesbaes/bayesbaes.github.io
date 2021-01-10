@@ -84,7 +84,7 @@ df <- bind_rows(females, males)
 Let’s briefly look at this data to see if we notice any obvious
 patterns.
 
-![](/assets/images/interactions_tutorial/plot%20the%20data-1.png)![](/assets/images/interactions_tutorial/plot%20the%20data-2.png)
+![](/figures/interactions_tutorial/plot%20the%20data-1.png)![](/figures/interactions_tutorial/plot%20the%20data-2.png)
 
 Here we can see that males clearly have larger home range sizes than
 females, and that their home ranges increase with increasing body size,
@@ -124,7 +124,7 @@ slope we used for females was 0 and the slope we used for males is 1,
 and since we had equal numbers of males and females, it makes sense that
 our averaged slope is halfway between the two).
 
-![](/assets/images/interactions_tutorial/plot%20model%20without%20interaction-1.png)
+![](/figures/interactions_tutorial/plot%20model%20without%20interaction-1.png)
 
 Now let’s add an interaction into the model, since, as the lizard god,
 we know that the effect of body size on home range size should be
@@ -189,7 +189,7 @@ levels(df$sex)
 To visualize what this means, let’s extend the x axis of our previous
 figure.
 
-![](/assets/images/interactions_tutorial/plotting%20interaction-1.png)
+![](/figures/interactions_tutorial/plotting%20interaction-1.png)
 
 The dotted line shows us where our model coefficients are being drawn
 from. The intercept is where the pink line (for females) crosses the
@@ -256,7 +256,7 @@ based on females only (since we didn’t standardize our categorical
 variable), but our main effect of sex now makes more biological sense
 based on how we generated the data. We can plot it below.
 
-![](/assets/images/interactions_tutorial/plot%20standardized-1.png)
+![](/figures/interactions_tutorial/plot%20standardized-1.png)
 
 Our new intercept now lies at the mean body size, rather than at 0cm. So
 our model with an interaction is still representing **the effect of a
@@ -304,7 +304,7 @@ summary(mod_center)
     ## Multiple R-squared:  0.9255, Adjusted R-squared:  0.9232 
     ## F-statistic: 397.7 on 3 and 96 DF,  p-value: < 2.2e-16
 
-![](/assets/images/interactions_tutorial/plot%20centered-1.png)
+![](/figures/interactions_tutorial/plot%20centered-1.png)
 
 Now our effects are represented in units of the continuous variable
 rather than in SD.
@@ -478,7 +478,7 @@ Here we can see that species 2 has larger home ranges on average than
 species 1, but males in species 1 have larger ones than females while
 the opposite is true in species 2.
 
-![](/assets/images/interactions_tutorial/plot%202%20species%20by%20sex-1.png)
+![](/figures/interactions_tutorial/plot%202%20species%20by%20sex-1.png)
 
 Now let’s see how that translates to our model output.
 
@@ -612,7 +612,7 @@ We can see below that this third species now has approximately the same
 mean home range size for both males and females as our intercept level
 (females of species 1).
 
-![](/assets/images/interactions_tutorial/plot%20species%20by%20sex-1.png)
+![](/figures/interactions_tutorial/plot%20species%20by%20sex-1.png)
 
 ``` r
 mod_spp3 <- lm(home_range ~ sex * species, data = df3)
@@ -711,13 +711,13 @@ Here, we can see that there is a positive effect of body size *across
 all* head widths, but that the effect is a little bit smaller for
 lizards with smaller heads.
 
-![](/assets/images/interactions_tutorial/continuous%20interaction%20plot%20body%20size-1.png)
+![](/figures/interactions_tutorial/continuous%20interaction%20plot%20body%20size-1.png)
 
 And here we can see that *on average* there is a small positive effect
 of head width on home range size, but that for small lizards there is no
 effect.
 
-![](/assets/images/interactions_tutorial/continous%20interaction%20plot%20head%20width-1.png)
+![](/figures/interactions_tutorial/continous%20interaction%20plot%20head%20width-1.png)
 
 When we run our model, we can see that the coefficient estimates are
 almost identitcal to the values we used to generate the home range data
@@ -810,9 +810,9 @@ results in a smaller effect size than if we added the main effects of
 each together. Below, we can see how this relationship would change in
 our example if we changed the interaction effect to -1:
 
-![](/assets/images/interactions_tutorial/continuous%20interaction%20plot%20body%20size%20neg%20int-1.png)
+![](/figures/interactions_tutorial/continuous%20interaction%20plot%20body%20size%20neg%20int-1.png)
 
-![](/assets/images/interactions_tutorial/continous%20interaction%20plot%20head%20width%20neg%20int-1.png)
+![](/figures/interactions_tutorial/continous%20interaction%20plot%20head%20width%20neg%20int-1.png)
 
 As we can see, increasing the value of one variable decreases the effect
 (i.e. slope of the relationship between dependent and independent
