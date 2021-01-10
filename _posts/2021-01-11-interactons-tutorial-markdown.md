@@ -117,7 +117,7 @@ slope we used for females was 0 and the slope we used for males is 1,
 and since we had equal numbers of males and females, it makes sense that
 our averaged slope is halfway between the two).
 
-![](/assets/images/interactions_tutorial/plot%20model%20without%20interaction-1.png)
+![](./assets/images/interactions_tutorial/plot%20model%20without%20interaction-1.png)
 
 Now let’s add an interaction into the model, since, as the lizard god,
 we know that the effect of body size on home range size should be
