@@ -4,8 +4,8 @@ layout: default
 <main class="page-content" aria-label="Content">
   <div class = "container-fluid">
     <div class = "row no-gutters">
-      <div class = "col text-black" style="background-color: #e3f2fd;">
-        <div class = "affix">
+      <div class = "col text-black">
+        <div data-spy="affix">
         <h3> Author </h3>
          {% for author in page.authors %}
            <a class="btn btn-primary" href="/people/" role="button">{{ author }}</a>
