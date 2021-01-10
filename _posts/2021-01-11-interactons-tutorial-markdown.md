@@ -50,7 +50,7 @@ a larger home range than females, and home range size increases with
 lizard body size in males, but stays constant in females. We can
 generate some data to match these patterns:
 
-``` r
+~~~ r
 #generate sequence of body sizes for each sex
 males <- tibble(body_size = seq(from = 4, to = 8, length.out = 50))
 females <- tibble(body_size = seq(from = 4, to = 8, length.out = 50))
@@ -72,7 +72,7 @@ males <- males %>%
 
 #now put the males and females together
 df <- bind_rows(females, males)
-```
+~~~
 
 Let’s briefly look at this data to see if we notice any obvious
 patterns.
