@@ -1,9 +1,16 @@
 ---
 layout: post
-title: "Interactions Tutorial Markdown 2"
+title: "Interpreting Models with Interactions"
 authors: Hannah Watkins
 tags: stats coding
+output: 
+  md_document:
+      variant: markdown_github
+      preserve_yaml: true
 ---
+
+Interpreting Models with Interactions
+=====================================
 
 One of the most common questions that comes up in stats help discussions
 is “how do I interpret my interaction term?” (or its cousin “why are my
@@ -50,7 +57,7 @@ a larger home range than females, and home range size increases with
 lizard body size in males, but stays constant in females. We can
 generate some data to match these patterns:
 
-~~~ r
+``` r
 #generate sequence of body sizes for each sex
 males <- tibble(body_size = seq(from = 4, to = 8, length.out = 50))
 females <- tibble(body_size = seq(from = 4, to = 8, length.out = 50))
@@ -72,12 +79,12 @@ males <- males %>%
 
 #now put the males and females together
 df <- bind_rows(females, males)
-~~~
+```
 
 Let’s briefly look at this data to see if we notice any obvious
 patterns.
 
-![](../assets/images/interactions_tutorial/plot%20the%20data-1.png)![](../assets/images/interactions_tutorial/plot%20the%20data-2.png)
+![](/assets/images/interactions_tutorial/plot%20the%20data-1.png)![](/assets/images/interactions_tutorial/plot%20the%20data-2.png)
 
 Here we can see that males clearly have larger home range sizes than
 females, and that their home ranges increase with increasing body size,
@@ -117,7 +124,7 @@ slope we used for females was 0 and the slope we used for males is 1,
 and since we had equal numbers of males and females, it makes sense that
 our averaged slope is halfway between the two).
 
-![](./assets/images/interactions_tutorial/plot%20model%20without%20interaction-1.png)
+![](/assets/images/interactions_tutorial/plot%20model%20without%20interaction-1.png)
 
 Now let’s add an interaction into the model, since, as the lizard god,
 we know that the effect of body size on home range size should be
