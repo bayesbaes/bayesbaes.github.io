@@ -16,6 +16,7 @@ fig.path <- "figures/your_tutorial_name/"
 
 knitr::opts_knit$set(base.dir = base.dir, base.url = base.url)
 knitr::opts_chunk$set(fig.path = fig.path) 
+knitr::opts_chunk$set(dpi = 300) #this line is optional
 ```
 
 **To see this file with the proper syntax, make sure to select "Raw" when viewing it. Please include all of the information listed above at the very start of any tutorial post you make in markdown, filling in the relevant info for your specific post.**
@@ -26,7 +27,7 @@ This is the part inside the dashes, which is necessary for the website to read y
 
 ### Markdown setup
 
-This is the part inside the backticks. This part seems weird, but it's **super** important if you have any images or figures in your markdown! For our site to be able to reference any figures you have properly, you'll need to define your base directory, base url, and figure path before knitting your markdown. Your base directory is just your working directory, which you can check with getwd() (mine all look like "C:/Users/hannah/etc/etc/etc"). Then, manually set base.url to "/" (this just puts a / in front of all the filepaths that your markdown references, which we need because Github Pages is finnicky). Finally, you'll create the figure path, which **must** start with "figures/". You can make up a name in the "your_tutorial_name/" section and make sure to include the / at the end. Below that, you'll then use the knitr package to set the defaults for the base directory and image path.
+This is the part inside the backticks. This part seems weird, but it's **super** important if you have any images or figures in your markdown! For our site to be able to reference any figures you have properly, you'll need to define your base directory, base url, and figure path before knitting your markdown. Your base directory is just your working directory, which you can check with getwd() (mine all look like "C:/Users/hannah/etc/etc/etc"). Then, manually set base.url to "/" (this just puts a / in front of all the filepaths that your markdown references, which we need because Github Pages is finnicky). Finally, you'll create the figure path, which **must** start with "figures/". You can make up a name in the "your_tutorial_name/" section and make sure to include the / at the end. Below that, you'll then use the knitr package to set the defaults for the base directory and image path. You can also optionally set a resolution size for any of your figures by adjusting the dpi and changing the width and height, as I find the defaults aren't a great quality.
 
 ### Putting your files in our repo
 
