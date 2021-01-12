@@ -33,6 +33,6 @@ This is the part inside the backticks. This part seems weird, but it's **super**
 
 All of that weird code will create a folder (*your_tutorial_name*) of all your figures in your working directory that is located inside a folder named **figures**. You can copy the entire folder ("your_tutorial_name") and put it in *our* own **figures** folder in our repo.
 
-Then you can put your .md file in our **_posts** folder. Please follow the naming convention: *YYYY-MM-DD-name-of-your-tutorial.md* . Doing so will automatically upload it to our website in the proper format once we approve your pull request!
+Then you can put your .md file in our **_posts** folder. Please follow the naming convention: *YYYY-MM-DD-name-of-your-tutorial.md* . Doing so will automatically upload it to our website in the proper format once we approve your pull request! You are also welcome and encouraged to put your .RMd file in here too if you have any code in your tutorial so others can use it.
 
-Sorry these instructions are so specific, but Github Pages is very picky! If these instructions don't work for you, please send an email to bayesbaes@gmail.com. Worst case scenario, you can upload your post as an html, but the formatting will look weird and we won't be able to fix it without going through hundreds of lines of your html code. 
+Sorry these instructions are so specific, but Github Pages is very picky! If these instructions don't work for you, please send an email to bayesbaes@gmail.com. If you send us your .RMd we can complete this part for you. Worst case scenario, you can upload your post as an html, but the formatting will look weird and we won't be able to fix it without going through hundreds of lines of your html code. 
