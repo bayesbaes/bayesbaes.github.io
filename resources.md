@@ -14,5 +14,5 @@ This is where we'll compile all the resources we know about on a range of topics
 
 ##### Making beautiful figures
 
-[R for Data Science Chapter3](https://r4ds.had.co.nz/data-visualisation.html) - Hadley Wickham's book is our top pick for understanding how to make figures in ggplot, which should come as no surprise - he created the package!
-[gganimate Vignette}(https://gganimate.com/articles/gganimate.html) - This is a fabulous resource if you're interested in making animated plots - great for showing trends over time.
+[R for Data Science Chapter3](https://r4ds.had.co.nz/data-visualisation.html) - Hadley Wickham's book is our top pick for understanding how to make figures in ggplot, which should come as no surprise - he created the package!\
+[gganimate Vignette](https://gganimate.com/articles/gganimate.html) - This is a fabulous resource if you're interested in making animated plots - great for showing trends over time.
