@@ -4,9 +4,9 @@
 		$email = $_POST['email'];
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
-		$from = 'Demo Contact Form'; 
-		$to = 'example@bootstrapbay.com'; 
-		$subject = 'Message from Contact Demo ';
+		$from = 'BB Contact Form'; 
+		$to = 'bayesbaes@gmail.com'; 
+		$subject = 'Message from Bayes Baes ';
 		
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
