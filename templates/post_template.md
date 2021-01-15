@@ -10,7 +10,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-base.dir <- "/your/working/directory"
+base.dir <- "your/working/directory"
 base.url <- "/"
 fig.path <- "figures/your_tutorial_name/"
 
