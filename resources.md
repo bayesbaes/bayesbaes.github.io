@@ -26,4 +26,4 @@ This is where we'll compile all the resources we know about on a range of topics
 
 
 ##### Spatial stats in R
-<a href="https://www.danaseidel.com/MovEco-R-Workshop/Materials/Day2/Spatial_Data_in_R/" target="_blank" style="color:#0086b3;">Introduction to working with spatial data in R</a> - Here is a wonderful tutorial from the Hong Kong University Cetacean Ecology Lab, which gives a thorough introduction to using spatial data in R using the <span class="package-style"> sf </span> package. 
+<a href="https://www.danaseidel.com/MovEco-R-Workshop/Materials/Day2/Spatial_Data_in_R/" target="_blank" style="color:#0086b3;">Introduction to working with spatial data in R</a> - Here is a wonderful tutorial from the Hong Kong University Cetacean Ecology Lab, which gives a thorough introduction to using spatial data in R using the <span class="package-style"> sf is this courier? </span> package. 
