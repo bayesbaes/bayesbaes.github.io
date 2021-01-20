@@ -63,9 +63,8 @@ a {
   color: #0086b3
 }
 
-<style>
 .packages {
   color: #0086b3;
-  font: "Courier";
+  font-family: "courier";
 }
-</style>
+
