@@ -1,3 +1,5 @@
+## Become a contributor
+
 If you'd like to contribute a tutorial to Bayes' Baes, please get in touch with us (we may be working on a similar post!) and then use the templates included in this folder to streamline the process for us before creating a pull request. If you are unfamiliar with Github but still want to contribute please let us know in your email and we'd be happy to help.
 
 **Post**: For your actual post, feel free to create it using whatever software you prefer (we use RMarkdown and will be able to provide support if you also use it!) and export to a .md file. For your post to display properly on our site, you'll need to follow specific naming conventions and have the correct front matter, as explained in the *post_template.md* file. When completing a pull request, make sure to add this to the *_posts* folder in our repo and your image folder (if you have one) to our *figures* folder.
