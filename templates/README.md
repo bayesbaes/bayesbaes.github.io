@@ -10,4 +10,4 @@ If you'd like to contribute a tutorial to Bayes' Baes, please get in touch with 
 
 Note, if this is not your first contribution, there's no need to upload an additional photo and bio, just make sure to follow the naming convention you used in previous posts when writing the front matter for a new post.
 
-The easiest way to contribute directly to our site is to create a branch of our repo in your own directory, add your post, photo, and bio to the appropriate folders, then create a pull request to push your files to our repo. Follow the same steps to create any changes to tutorials you've already pushed to our repo.
+The easiest way to contribute directly to our site is to create a branch of our repo in your own directory, add your post, photo, and bio to the appropriate folders, then create a pull request to push your files to our repo. Follow the same steps to create any changes to tutorials you've already pushed to our repo. **If you're having any difficulties, you can email us your .Rmd file and we can upload it for you**.
