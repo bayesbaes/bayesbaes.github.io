@@ -4,7 +4,7 @@ title: Who Are We?
 permalink: /people/
 ---
 <h2>Meet the team!</h2>
-Bayes' Baes is a resource run by and for biologists. Collaboration is the key to our success - if you'd like to contribute to this work (through writing tutorials, editing, etc.), please <a href="mailto:bayesbaes@gmail.com" style="color:#0086b3;">get in touch</a>! You can learn more about how to contribute to this project on our <a href="https://github.com/bayesbaes/bayesbaes.github.io/tree/main/templates" style="color:#0086b3;">Github</a>.
+Bayes' Baes is a resource run by and for biologists. Collaboration is the key to our success - if you'd like to contribute to this work (through writing tutorials, editing, etc.), please <a href="mailto:bayesbaes@gmail.com">get in touch</a>! You can learn more about how to contribute to this project on our <a href="https://github.com/bayesbaes/bayesbaes.github.io/tree/main/templates">Github</a>.
 <hr/>
 <h3>The Founding Baes</h3>
 <div class = "row">
