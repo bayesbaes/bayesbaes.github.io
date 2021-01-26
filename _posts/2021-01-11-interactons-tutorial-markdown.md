@@ -387,9 +387,9 @@ summary(mod_center)
 
 We can plug in these coeffcients into our written model:
 
-**home\_range = <span style="color:#DE369D">3.08</span> \* sexmale - <span
-style="color:#B388EB">0.008</span> \*body\_size\_center + <span
-style="color:#00A7E1">1.09</span> \*sexmale\*body\_size\_center + 5.02**
+**home\_range = <span style="color:#DE369D"> 3.08 </span> \* sexmale - <span
+style="color:#B388EB"> 0.008 </span> \*body\_size\_center + <span
+style="color:#00A7E1"> 1.09 </span> \*sexmale\*body\_size\_center + 5.02**
 
 Remember, our “intercept lizard” is a female lizard with the mean body
 size (since we’ve centered our data). We can see that by plugging our
