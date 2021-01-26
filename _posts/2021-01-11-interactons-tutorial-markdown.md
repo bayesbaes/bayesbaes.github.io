@@ -354,11 +354,9 @@ size, measured in cm - we’ll use the centered version from above). In y
 = mx + b form, our model looks like:
 
 **home\_range = <span
-style="color:#DE369D">m<sub>sex</sub></span>\*sexmale + <span
-style="color:#B388EB">m<sub>body\_size</sub></span>\*body\_size\_center
-+ <span
-style="color:#00A7E1">m<sub>interaction</sub></span>\*sexmale\*body\_size\_center
-+ intercept**
+style="color:#DE369D"> m<sub>sex</sub> </span> \* sexmale + <span
+style="color:#B388EB"> m<sub>body\_size</sub> </span> \* body\_size\_center + 
+<span style="color:#00A7E1" >m<sub>interaction</sub> </span> \* sexmale\*body\_size\_center + intercept**
 
 And our model output looks like this:
 
