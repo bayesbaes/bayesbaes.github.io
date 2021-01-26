@@ -6,7 +6,7 @@ If you'd like to contribute a tutorial to Bayes' Baes, please get in touch with 
 
 **Author Photo**: We like to feature all of our Guest Baes on our About page! Please upload a photo of yourself in the *assets/images* folder.
 
-**Author Info**: Please write a little blurb about yourself to include on our site, following the *author_template.md* file in this folder. When completing a pull request, make sure to add this file to the *_authors* folder of our repo.
+**Author Info**: Please write a little blurb about yourself to include on our site, following the *author_template.md* file in this folder. Make sure to add this file to the *_authors* folder of our repo.
 
 Note, if this is not your first contribution, there's no need to upload an additional photo and bio, just make sure to follow the naming convention you used in previous posts when writing the front matter for a new post.
 
