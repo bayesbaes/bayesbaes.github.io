@@ -8,11 +8,11 @@ layout: default
         <div class="sticky-top p-3">
         <h3> Author </h3>
          {% for author in page.authors %}
-           <a class="btn btn-primary" href="/people/" role="button">{{ author }}</a>
+           <a class="btn btn-primary" href="/people/" role="button" style="background-color:#F60073;">{{ author }}</a>
          {% endfor %}
         <h3> Tags </h3>
         {% for tag in page.tags %}  
-           <a class="btn btn-primary" href="/tutorials/browse-by-tag/" role="button">{{ tag }}</a>
+           <a class="btn btn-primary" href="/tutorials/browse-by-tag/" role="button" style="background-color:#FC9400;">{{ tag }}</a>
        {% endfor %}
        </div>
       </div>
