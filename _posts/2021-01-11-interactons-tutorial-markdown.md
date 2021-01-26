@@ -441,7 +441,7 @@ lizards without these “intercept characteristics”.
     math that a\*x + b\*x = (a+b)\*x. Consequently, our new equation for
     estimating home range in males becomes:
 
-    #### **home\_range = <span style="color:#DE369D">m<sub>sex</sub></span> + (<span style="color:#B388EB">m<sub>body\_size</sub></span> + <span style="color:#00A7E1">m<sub>interaction</span>)</sub>\*body\_size\_center + intercept**.
+    #### **home\_range = <span style="color:#DE369D">m<sub>sex</sub></span> + (<span style="color:#B388EB">m<sub>body\_size</sub></span> + <span style="color:#00A7E1">m<sub>interaction</sub></span> )\*body\_size\_center + intercept**
 
 The interaction becomes much clearer when we reduce the equation – we
 can see that **the interaction term directly impacts the slope of the
