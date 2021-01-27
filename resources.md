@@ -15,7 +15,9 @@ This is where we'll compile all the resources we know about on a range of topics
 ##### Making beautiful figures
 
 <a href="https://r4ds.had.co.nz/data-visualisation.html" target="_blank">R for Data Science Chapter3</a> - Hadley Wickham's book is our top pick for understanding how to make figures in ggplot, which should come as no surprise - he created the package! <br>
-<a href="https://gganimate.com/articles/gganimate.html" target="_blank">gganimate Vignette</a> - This is a fabulous resource if you're interested in making animated plots - great for showing trends over time.
+<a href="https://gganimate.com/articles/gganimate.html" target="_blank">gganimate Vignette</a> - This is a fabulous resource if you're interested in making animated plots - great for showing trends over time. <br>
+<a href="https://nschiett.github.io/fishualize/index.html" target="_blank">Fishualize Documentation</a> - We might be biased because we're both marine ecologists, but the <span class="package-style">fishualize</span> package has some beautiful colour palettes based on different species of FISH! Don't see your favourite fish (because we know you all have one)? You can contribute palettes as well! <br>
+<a href="https://github.com/thomasp85/patchwork" target="_blank">Patchwork Documentation</a> - <span class="package-style">patchwork</span> is probably the most intuitive package to create multi-panel ggplot objects without having to trial-and-error different values for your plot margins. <br>
 
 ##### Linear models (including LMMs, GLMs, and GLMMs)
 
