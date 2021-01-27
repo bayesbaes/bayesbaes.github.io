@@ -21,6 +21,7 @@ This is where we'll compile all the resources we know about on a range of topics
 
 ##### Linear models (including LMMs, GLMs, and GLMMs)
 
+<a href="https://github.com/seananderson/glmm-course" target="_blank">Sean Anderson's GLMM Course</a> - The holy grail for GLMMs. This course, designed by Sean Anderson, is the most comprehensive (free) course that's out there, with thorough explanations and examples with different link functions. Whether you're a newbie to GLMMs or a seasoned veteran, you're bound to learn something from this course! <br>
 <a href="https://stats.stackexchange.com/questions/228800/crossed-vs-nested-random-effects-how-do-they-differ-and-how-are-they-specified" target="_blank">Crossed vs. nested random effects</a> - If you've ever gotten confused about how to specify the types of random effects you have in your model, this surprisingly detailed Stack Exchange answer will help sort you out! 
 
 ##### Bayesian!
