@@ -13,7 +13,7 @@ a {
   overflow:hidden;
 }
 
-.bg:before {
+.bg {
   /* The image used */
   background-image: url("/assets/images/IMG_0455.JPG");
 
