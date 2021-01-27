@@ -1,7 +1,7 @@
 ---
 author: Danielle Derrick
 name: Danielle Derrick
-position: Illustrator
+position: Graphic Illustrator
 image: /assets/images/about_photo_derrick.jpg
 ---
 
