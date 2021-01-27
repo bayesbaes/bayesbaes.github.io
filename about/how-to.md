@@ -15,4 +15,4 @@ Most of our tutorials cover individual components of larger topics. So, rather t
 
 **Other resources**
 
-If you are working on a certain type of project, you can also head to the [Resources](https://bayesbaes.github.io/tutorials/resources/) tab to see both the tutorials that we have available AND additional resources that we've found helpful for our own work. In this section, we link to a range of useful sites including online books, package vignettes, tutorials, or in some cases *really* well explained Stack Overflow answers. This is an ever-growing list so please feel free to send us other resources you've found to be useful!
+If you are working on a certain type of project, you can also head to the [Resources](https://bayesbaes.github.io/resources/) tab to see both the tutorials that we have available AND additional resources that we've found helpful for our own work. In this section, we link to a range of useful sites including online books, package vignettes, tutorials, or in some cases *really* well explained Stack Overflow answers. This is an ever-growing list so please feel free to send us other resources you've found to be useful!
