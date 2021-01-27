@@ -37,6 +37,7 @@ a {
 }
 
 .home-btn:hover {
+ color: white;
  background-color: transparent;
  border: 5px solid #FFFFFF;
 }
