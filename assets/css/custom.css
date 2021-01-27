@@ -33,6 +33,7 @@ a {
  color: white;
  background-color: rgb(255, 255, 255, 0.1);
  transition-duration: 0.4s; 
+ border: 5px solid rgb(255, 255, 255, 0.1);
 }
 
 .home-btn:hover {
