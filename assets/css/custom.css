@@ -29,6 +29,13 @@ a {
   background-size: cover;
 }
 
-.site-content {
-    padding: 0;
+.home-btn {
+ color: white;
+ background-color: rgb(255, 255, 255, 0.1);
+ transition-duration: 0.4s; 
+}
+
+.home-btn:hover {
+ background-color: transparent;
+ border: 5px solid #FFFFFF;
 }
