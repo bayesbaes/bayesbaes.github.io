@@ -44,10 +44,10 @@ Bayes' Baes is a resource run by and for biologists. Collaboration is the key to
       {% assign mod = forloop.index %}
       {% if mod > 2 %}
   <div class = "row">
-         <div class = "col-3">
+         <div class = "col-md-3">
          <img src="{{author.image}}" class="img-fluid" alt="Responsive image">
          </div>
-         <div class = "col-9">
+         <div class = "col-md-9">
             <h4>{{ author.name }}</h4>
             <h5>{{ author.position }}</h5>
             <p>{{ author.content | markdownify }}</p>
