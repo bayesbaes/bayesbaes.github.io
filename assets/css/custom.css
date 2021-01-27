@@ -8,3 +8,12 @@ a {
   font-weight: bold;
 }
 
+.author-row {
+  max-height:100px;
+  overflow:hidden;
+}
+
+.author-img {
+   width:100%;
+   min-height:100px;
+}
