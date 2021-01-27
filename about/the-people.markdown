@@ -8,7 +8,7 @@ Bayes' Baes is a resource run by and for biologists. Collaboration is the key to
 <hr/>
 <h3>The Founding Baes</h3>
 <div class = "row">
-  <div class = "col-6">
+  <div class = "col-md-6">
     <ul>
       {% for author in site.authors %}
           {% assign mod = forloop.index %}
@@ -22,7 +22,7 @@ Bayes' Baes is a resource run by and for biologists. Collaboration is the key to
       {% endfor %}
     </ul>
   </div>
-  <div class = "col-6">
+  <div class = "col-md-6">
     <ul>
       {% for author in site.authors %}
       {% assign mod = forloop.index %}
