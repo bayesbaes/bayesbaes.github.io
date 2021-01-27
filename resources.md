@@ -24,7 +24,7 @@ This is where we'll compile all the resources we know about on a range of topics
 ##### Bayesian!
 <a href="https://github.com/rmcelreath/statrethinking_winter2019" target="_blank">Statistical Rethinking</a> - This is a great intro to both the conceptual background behind Bayesian analyses and how to code them. McElreath's book is fantastic, but if you can't get your hands on a copy, he has his course materials here! <br>
 <a href="https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/" target="_blank">Statistical Rethinking in brms</a> - If you liked Statistical Rethinking but wih you could see the examples coded in the more commonly used <span class="package-style">brms</span> package, you're in luck! A. Solomon Kurz goes through the entire book in this freely accessible Bookdown. <br>
-<a href="http://mjskay.github.io/tidybayes/" target="_blank">Tidybayes Documentation</a> - <span class="package-style">tidybayes</span> is a great package with awesome documentation to help you figure out how to extract and plot outputs from a <span class="package-style">brms</span> model. 
+<a href="http://mjskay.github.io/tidybayes/" target="_blank">Tidybayes Documentation</a> - <span class="package-style">tidybayes</span> is a great package with awesome documentation to help you figure out how to extract and plot outputs from a <span class="package-style">brms</span> model. <br>
 <a href="https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations" target="_blank">Prior Choice Recommendations</a> - Should you use uninformative or informative priors? Should they be weak or strong? Here is a great page to walk you through different priors and the pros/cons of each choice!
 
 ##### Spatial stats in R
