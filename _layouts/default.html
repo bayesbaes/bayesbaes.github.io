@@ -6,11 +6,12 @@
   <body class="d-flex flex-column min-vh-100">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
        <a class="navbar-brand" href="/">
           <img src="/assets/images/Bayes_Baes_transparent_small.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
           The Bayes' Baes Blog
        </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -20,17 +21,17 @@
             <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/about/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/people/">Who are we?</a>
-              <a class="dropdown-item" href="/the-project/">What is the project about?</a>
-              <a class="dropdown-item" href="/how-to/">How to use the site</a>
-            </div>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/people/">Who are we?</a></li>
+              <li><a class="dropdown-item" href="/the-project/">What is the project about?</a></li>
+              <li><a class="dropdown-item" href="/how-to/">How to use the site</a></li>
+            </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/tutorials/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="/tutorials/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
               Tutorials
            </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -46,6 +47,7 @@
           </li>
         </ul>
       </div>
+     </div>
     </nav>
 
     <section class="container-fluid flex-grow-1 m-0">
