@@ -60,7 +60,7 @@ a {
  transition-duration: 0.4s; 
  border: 5px solid rgb(192, 192, 192, 0.05);
  padding: 32px 16px;
- font-size: 4vw;
+ font-size: 24px;
  width:50%;
  margin:auto;
  display:block !important;
