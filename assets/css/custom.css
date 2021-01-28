@@ -12,11 +12,6 @@ nav {
   font-weight: bold;
 }
 
-.author-row {
-  max-height:400px;
-  overflow:hidden;
-}
-
 .bg {
   /* The image used */
   background-image: url("/assets/images/Traceplot.jpg");
