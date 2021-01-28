@@ -48,9 +48,9 @@ nav {
 
 .home-btn-purple {
  color: white;
- background-color: rgb(192, 192, 192, 0.3);
+ background-color: rgb(0,0,0, 0.3);
  transition-duration: 0.4s; 
- border: 5px solid rgb(192, 192, 192, 0.05);
+ border: 5px solid rgb(0,0,0, 0.05);
  padding: 32px 16px;
  font-size: 24px;
  width:50%;
@@ -67,9 +67,9 @@ nav {
 
 .home-btn-pink {
  color: white;
- background-color: rgb(192, 192, 192, 0.3);
+ background-color: rgb(0,0,0, 0.3);
  transition-duration: 0.4s; 
- border: 5px solid rgb(192, 192, 192, 0.05);
+ border: 5px solid rgb(0,0,0, 0.05);
  padding: 32px 16px;
  font-size: 24px;
  width:50%;
@@ -86,9 +86,9 @@ nav {
 
 .home-btn-orange {
  color: white;
- background-color: rgb(192, 192, 192, 0.3);
+ background-color: rgb(0,0,0, 0.3);
  transition-duration: 0.4s; 
- border: 5px solid rgb(192, 192, 192, 0.05);
+ border: 5px solid rgb(0,0,0, 0.05);
  padding: 32px 16px;
  font-size: 24px;
  width:50%;
