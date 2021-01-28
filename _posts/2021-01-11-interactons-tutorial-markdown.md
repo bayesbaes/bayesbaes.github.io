@@ -2,7 +2,7 @@
 layout: post
 title: "Interpreting Models with Interactions"
 authors: Hannah Watkins
-tags: "linear models" "fundamentals"
+tags: linear-models fundamentals
 output: 
   md_document:
       variant: markdown_github
