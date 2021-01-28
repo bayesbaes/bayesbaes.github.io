@@ -38,7 +38,7 @@ a {
  font-size: 24px;
  width:50%;
  margin:auto;
- display:block;
+ display:block !important;
 }
 
 .home-btn:hover {
