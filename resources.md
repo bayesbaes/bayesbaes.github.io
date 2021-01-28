@@ -4,6 +4,14 @@ title: Resources
 permalink: /resources/
 ---
 
+<div class="conatiner-fluid">
+  <div class="row">
+    <div class="col-2 p-0 m-0" style="background-color:#F5F5F5;">
+      
+    </div>
+     
+    <div class="col-10">  
+
 ## Resources for any project
 
 This is where we'll compile all the resources we know about on a range of topics, including both tutorials from Bayes' Baes and those from other sources. I think we should format it like this:
@@ -35,4 +43,7 @@ This is where we'll compile all the resources we know about on a range of topics
 
 ##### Miscellaneous coding help
 <a href="https://happygitwithr.com/index.html" target="_blank">Git and GitHub with R</a> - This is a great, comprehensive tutorial on how to install git, set-up GitHub, and get it all talking to RStudio. From beginning to end, you'll be pushing and pulling in no time! 
+
+</div>
+</div>
 
