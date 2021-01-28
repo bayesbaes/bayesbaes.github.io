@@ -99,7 +99,7 @@ nav {
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
-.accordion {
+.accordion.button {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -112,7 +112,13 @@ nav {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.accordion.button:hover {
   background-color: #2F036C;
 }
 
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
