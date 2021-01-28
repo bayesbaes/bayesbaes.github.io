@@ -24,9 +24,6 @@ a {
 
   /* Full height */
   height: 100%; 
-  /* make opacity only applicable to the background */
-  z-index: 1;
-  opacity: 0.6;
 
   /* Center and scale the image nicely */
   background-position: center;
