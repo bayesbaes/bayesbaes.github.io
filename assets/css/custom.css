@@ -55,7 +55,7 @@ a {
 
 .home-btn-purple {
  color: white;
- background-color: rgb(192, 192, 192, 0.1);
+ background-color: rgb(192, 192, 192, 0.3);
  transition-duration: 0.4s; 
  border: 5px solid rgb(192, 192, 192, 0.05);
  padding: 32px 16px;
@@ -73,7 +73,7 @@ a {
 
 .home-btn-pink {
  color: white;
- background-color: rgb(192, 192, 192, 0.1);
+ background-color: rgb(192, 192, 192, 0.3);
  transition-duration: 0.4s; 
  border: 5px solid rgb(192, 192, 192, 0.05);
  padding: 32px 16px;
@@ -91,7 +91,7 @@ a {
 
 .home-btn-orange {
  color: white;
- background-color: rgb(192, 192, 192, 0.1);
+ background-color: rgb(192, 192, 192, 0.3);
  transition-duration: 0.4s; 
  border: 5px solid rgb(192, 192, 192, 0.05);
  padding: 32px 16px;
