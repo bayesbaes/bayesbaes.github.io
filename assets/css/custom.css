@@ -66,7 +66,7 @@ a {
 }
 
 .home-btn-purple:hover {
- color: #8411DA;
+ color: white;
  background-color: transparent;
  border: 5px solid #8411DA;
 }
@@ -84,7 +84,7 @@ a {
 }
 
 .home-btn-pink:hover {
- color: #F60073;
+ color: white;
  background-color: transparent;
  border: 5px solid #F60073;
 }
@@ -102,7 +102,7 @@ a {
 }
 
 .home-btn-orange:hover {
- color: #FC9400;
+ color: white;
  background-color: transparent;
  border: 5px solid #FC9400;
 }
