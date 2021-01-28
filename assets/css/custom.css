@@ -30,6 +30,7 @@ nav {
 }
 
 .bg {
+  background-color: rgb(0,0,0,0.2);
   /* The image used */
   background-image: url("/assets/images/Traceplot.jpg");
 
