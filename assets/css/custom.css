@@ -45,6 +45,7 @@ a {
  width:50%;
  margin:auto;
  display:block !important;
+ -webkit-appearance: none;
 }
 
 .home-btn:hover {
@@ -63,6 +64,7 @@ a {
  width:50%;
  margin:auto;
  display:block !important;
+ -webkit-appearance: none;
 }
 
 .home-btn-purple:hover {
@@ -81,6 +83,7 @@ a {
  width:50%;
  margin:auto;
  display:block !important;
+ -webkit-appearance: none;
 }
 
 .home-btn-pink:hover {
@@ -99,6 +102,7 @@ a {
  width:50%;
  margin:auto;
  display:block !important;
+ -webkit-appearance: none;
 }
 
 .home-btn-orange:hover {
