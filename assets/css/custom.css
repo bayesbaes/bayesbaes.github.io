@@ -112,6 +112,10 @@ nav {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordian-button:focus {
+  outline-color: #2F036C;
+}
+
 .accordion-button:hover {
   background-color: #2F036C;
 }
