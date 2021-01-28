@@ -4,7 +4,7 @@ title: What's the project about?
 permalink: /the-project/
 ---
 
-<h2>Helping biologsts get back to biology</h2>
+<h2>Helping biologists get back to biology</h2>
 
 These days, when studying biology, about 90% of our job seems to be doing stats (or thinking about stats, or Googling stats questions). The problem is, we're woefully underprepared for this reality in undergraduate biology programs and often need to spend an inordinate amount of time self-teaching in grad school. The problem is compounded by the fact that most established professors know very little about coding and dealing with the complexities of modern day statistics (ever been told by a supervisor to run a t-test even after explaining that your data don't meet the assumptions?). Students, post-docs, and ECRs are often left having to figure things out on their own by piecing together bits and pieces of things they've heard in class or learned from Stack Exchange.
 
