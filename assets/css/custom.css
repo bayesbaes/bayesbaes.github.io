@@ -46,8 +46,8 @@ nav {
  background-color: rgb(0,0,0, 0.3);
  transition-duration: 0.4s; 
  border: 5px solid rgb(0,0,0, 0.05);
- padding: 32px 16px;
- font-size: 24px;
+ padding: 16px 8px;
+ font-size: 30px;
  width:50%;
  margin:auto;
  display:block !important;
@@ -65,8 +65,8 @@ nav {
  background-color: rgb(0,0,0, 0.3);
  transition-duration: 0.4s; 
  border: 5px solid rgb(0,0,0, 0.05);
- padding: 32px 16px;
- font-size: 24px;
+ padding: 16px 8px;
+ font-size: 30px;
  width:50%;
  margin:auto;
  display:block !important;
@@ -84,8 +84,8 @@ nav {
  background-color: rgb(0,0,0, 0.3);
  transition-duration: 0.4s; 
  border: 5px solid rgb(0,0,0, 0.05);
- padding: 32px 16px;
- font-size: 24px;
+ padding: 16px 8px;
+ font-size: 30px;
  width:50%;
  margin:auto;
  display:block !important;
