@@ -16,7 +16,7 @@ fig.path <- "figures/your_tutorial_name/"
 
 knitr::opts_knit$set(base.dir = base.dir, base.url = base.url)
 knitr::opts_chunk$set(fig.path = fig.path) 
-knitr::opts_chunk$set(dpi = 300) #this line is optional
+knitr::opts_chunk$set(dpi = 300, out.width = "80%") #this line is optional, but this is what we recommend
 ```
 
 **To see this file with the proper syntax, make sure to select "Raw" when viewing it. Please include all of the information listed above at the very start of any tutorial post you make in markdown, filling in the relevant info for your specific post.**
