@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Principle Component Analysis (PCA)"
+title: "Principal Component Analysis (PCA)"
 authors: Helen Yan
 tags: multivariate convex-hulls
 output: 
@@ -9,6 +9,9 @@ output:
       preserve_yaml: true
 ---
 
+Principal Component Analysis (PCA)
+==================================
+
 Multivariate statistics can sound scary, but in many instances there are
 ways to reduce the number of variables (i.e., the dimensionality)
 without losing any of the information between them. These methods are
@@ -16,7 +19,7 @@ typically referred to as ordination methods because they reduce the
 dimensionality of your data. You’ll choose an ordination method based on
 the question that you’re answering and what you’re trying to achieve. In
 ecology (particularly community ecology), the two most common forms of
-ordination methods are either a Principle component analysis (PCA) or a
+ordination methods are either a principal component analysis (PCA) or a
 similarity matrix with non-metric multidimensional scaling (nMDS). PCAs
 use a Euclidean distance and cannot handle missing values, whereas nMDS
 can use different distance values (e.g., Bray-Curtis, Jaccard) and can
@@ -34,7 +37,7 @@ will be able to:
 3.  Create beautiful PCA ggplot objects
 
 Part 1: Coding and interpretting PCAs
-=====================================
+-------------------------------------
 
 Let’s say we want to know how body characteristics vary with different
 species of penguins. We’ll be using the <span
@@ -139,7 +142,7 @@ summary(pca_values)
     ## Proportion of Variance 0.6863 0.1945 0.09216 0.02697
     ## Cumulative Proportion  0.6863 0.8809 0.97303 1.00000
 
-The number of principle components will always equal the number of
+The number of principal components will always equal the number of
 variables you’re collapsing - in our case, we have four (i.e., PC1, PC2,
 PC3, PC4). The table that is presented is telling you how well the PCA
 fits your data. Typically, we assess PCA “fit” based on how much of the
@@ -220,7 +223,7 @@ to see more on <span class="package-style">ggfortify::autoplot()</span>
 for PCA plots.
 
 Part 2: Tying PCAs into other analyses
-======================================
+--------------------------------------
 
 You don’t always need to move forward to analyzing your PCA results
 separately, in which case you can skip Part 2 and go straight to Part 3.
@@ -296,7 +299,7 @@ you’re not sure how to interpret the model output, stay tuned for our
 Model Interpretation tutorial (coming soon).
 
 Part 3: Beautiful, publication worthy PCA plots
-===============================================
+-----------------------------------------------
 
 Now for the fun stuff, let’s make some beautiful plots! First, we can
 just plot the raw points.
@@ -385,7 +388,7 @@ chull_plot +
 ![](/figures/PCA-tutorial/unnamed-chunk-13-1.png)
 
 Some final thoughts
-===================
+-------------------
 
 Good job, you just did some multivariate analyses (and it wasn’t *that*
 scary)! The biggest struggle will be at the very beginning when you have
