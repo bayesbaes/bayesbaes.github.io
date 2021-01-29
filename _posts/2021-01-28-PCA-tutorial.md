@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Principle component analysis (PCA)"
+title: "Principle Component Analysis (PCA)"
 authors: Helen Yan
 tags: multivariate convex-hulls
 output: 
