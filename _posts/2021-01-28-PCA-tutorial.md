@@ -160,7 +160,7 @@ bit, but we’ll also provide code below so you can make your own.
 autoplot(pca_values, loadings = TRUE, loadings.label = TRUE)
 ```
 
-<img src="/figures/PCA-tutorial/unnamed-chunk-6-1.png" width="50%" />
+<img src="/figures/PCA-tutorial/unnamed-chunk-6-1.png" width="80%" />
 
 Now, what the fork are we looking at? As promised, we’ll keep the math
 to a minimum. If you recall from highschool physics or math, the arrows
@@ -204,7 +204,7 @@ autoplot(pca_values, loadings = TRUE, loadings.label = TRUE,
     ## This warning is displayed once every 8 hours.
     ## Call `lifecycle::last_warnings()` to see where this warning was generated.
 
-<img src="/figures/PCA-tutorial/unnamed-chunk-7-1.png" width="50%" />
+<img src="/figures/PCA-tutorial/unnamed-chunk-7-1.png" width="80%" />
 
 So now we can see that the Adelie and Chinstrap points cluster, but they
 also overlap quite a bit. In this non-dimensional space, you would
@@ -309,7 +309,7 @@ basic_plot <-
 basic_plot
 ```
 
-<img src="/figures/PCA-tutorial/unnamed-chunk-10-1.png" width="50%" />
+<img src="/figures/PCA-tutorial/unnamed-chunk-10-1.png" width="80%" />
 
 Now, what if we want to also show the clustering of the species? We can
 add convex hulls to the plots. A convex hull is the smallest polygon
@@ -337,7 +337,7 @@ chull_plot <-
 chull_plot
 ```
 
-<img src="/figures/PCA-tutorial/unnamed-chunk-11-1.png" width="50%" />
+<img src="/figures/PCA-tutorial/unnamed-chunk-11-1.png" width="80%" />
 
 We’re almost there\! Lastly, let’s put the eigenvectors (i.e., the
 arrows) back on the plot. First, we’ll have to create another dataframe
@@ -391,7 +391,7 @@ chull_plot +
            size = 3.5) 
 ```
 
-<img src="/figures/PCA-tutorial/unnamed-chunk-13-1.png" width="50%" />
+<img src="/figures/PCA-tutorial/unnamed-chunk-13-1.png" width="80%" />
 
 ## Some final thoughts
 
