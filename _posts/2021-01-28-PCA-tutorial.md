@@ -364,18 +364,28 @@ head(pca_load)
     ## 3 Flipper length  0.577 -0.00579  0.236 -0.782
     ## 4 Body mass       0.550 -0.0765   0.592  0.585
 
+You’ll notice that within the
+<span class="package-style">geom\_segment()</span> function, we’ll
+multiply the PC values by a constant (in this case by 5). This is
+because we only care about the relative relationship among the
+eigenvectors, so the default plot gives you small arrows. By multiplying
+them by a constant, we can retain the relationships between the loadings
+while also filling-in the white space on the plot.
+
+For the labels, I’ll be showing you how to do with the
+<span class="package-style">annotate()</span> function because I find it
+gives you more control and flexibility, but you can also use the
+<span class="package-style">ggrepel</span> package. I multiply each
+label by 6 in the x direction and by 5.2 in the y direction to avoid
+overlapping points.
+
 ``` r
 chull_plot +
   geom_segment(data = pca_load, 
                aes(x = 0, y = 0, 
-                   # because we only care about the relative relationship of the eigenvectors to one another, we will have to multiply each value by a constant to fill-out the empty space on the plot.
-                   # Multiplying by a constant will retain the relationship between the loadings
                    xend = PC1*5,
                    yend = PC2*5),
                arrow = arrow(length = unit(1/2, 'picas'))) +
-  # now let's add the labels
-  # personally I prefer to manually annotate the labels because it's more flexible
-  # you can use the ggrepel package for this as well
   annotate('text', x = (pca_load$PC1*6), y = (pca_load$PC2*5.2),
            label = pca_load$variable,
            size = 3.5) 
