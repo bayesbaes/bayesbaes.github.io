@@ -1,16 +1,15 @@
 ---
 layout: post
 title: "Principal Component Analysis (PCA)"
-authors: Helen Yan
+authors: "Helen Yan"
 tags: multivariate convex-hulls
 output: 
   md_document:
-      variant: markdown_github
+      variant: gfm
       preserve_yaml: true
 ---
 
-Principal Component Analysis (PCA)
-==================================
+# Principal Component Analysis (PCA)
 
 Multivariate statistics can sound scary, but in many instances there are
 ways to reduce the number of variables (i.e., the dimensionality)
@@ -36,14 +35,13 @@ will be able to:
 2.  Apply PCA values in seperate analyses (e.g., GLMs)
 3.  Create beautiful PCA ggplot objects
 
-Part 1: Coding and interpretting PCAs
--------------------------------------
+## Part 1: Coding and interpretting PCAs
 
 Let’s say we want to know how body characteristics vary with different
-species of penguins. We’ll be using the <span
-class="package-style">palmerpenguin</span> dataset to do this. We’ll
-also load the <span class="package-style">ggfortify</span> package in
-case you just want a quick and dirty PCA plot.
+species of penguins. We’ll be using the
+<span class="package-style">palmerpenguin</span> dataset to do this.
+We’ll also load the <span class="package-style">ggfortify</span>
+package in case you just want a quick and dirty PCA plot.
 
 ``` r
 library(tidyverse)
@@ -91,7 +89,7 @@ dataset, but how correlated are they with each other? We need to check
 this because if they’re too correlated with one-another, then we can’t
 throw them all into a single model. If the variables that you care about
 aren’t correlated, then you probably don’t need to continue with this
-tutorial!
+tutorial\!
 
 But first, let’s check the correlation:
 
@@ -117,7 +115,7 @@ corr_mat
 
 Yikes, so flipper\_length\_mm and body\_mass\_g are highly correlated.
 But you really want to include all these variables because they’re
-important for your hypotheses! Lucky for you, we can run them in a PCA
+important for your hypotheses\! Lucky for you, we can run them in a PCA
 (yes, that was tacky, but whatever).
 
 When you’re running a PCA, the variables that you are collapsing need to
@@ -125,8 +123,8 @@ be **continuous**. If you don’t have all continuous variables, then
 you’ll need to consider a different ordination method (e.g., Jaccard
 similarity indices use a binary presence/absence matrix). Similarly to
 running linear models (and its variations), it’s a good idea to scale
-and center our variables. Luckily, we can do this inside the <span
-class="package-style">prcomp()</span> function.
+and center our variables. Luckily, we can do this inside the
+<span class="package-style">prcomp()</span> function.
 
 ``` r
 pca_values <- 
@@ -147,10 +145,10 @@ variables you’re collapsing - in our case, we have four (i.e., PC1, PC2,
 PC3, PC4). The table that is presented is telling you how well the PCA
 fits your data. Typically, we assess PCA “fit” based on how much of the
 variance can be explained on a single axis. Here, the proportion of
-variance on the first axis (PC1) is nearly 70%, which is great! The last
-row is describing the cumulative proportion, which is just the sum of
-the proportion of variance explained by each additional axis (the sum of
-all axes will equal 1.00).
+variance on the first axis (PC1) is nearly 70%, which is great\! The
+last row is describing the cumulative proportion, which is just the sum
+of the proportion of variance explained by each additional axis (the sum
+of all axes will equal 1.00).
 
 The numbers are great (and you’ll have to report them in your results),
 but let’s visualize this. For a quick a dirty PCA plot, we can just use
@@ -162,14 +160,14 @@ bit, but we’ll also provide code below so you can make your own.
 autoplot(pca_values, loadings = TRUE, loadings.label = TRUE)
 ```
 
-![](/figures/PCA-tutorial/unnamed-chunk-6-1.png)
+![](/figures/PCA-tutorial/unnamed-chunk-6-1.png)<!-- -->
 
 Now, what the fork are we looking at? As promised, we’ll keep the math
 to a minimum. If you recall from highschool physics or math, the arrows
 are *vectors*, which means that they have magnitude and direction. The
 size of the arrow denotes the magnitude, while the direction denotes,
 well, the direction. These are the *eigenvectors* calculated by the
-fancy PCA math. Note: it defaults to showing PC2 \~ PC1, but you can
+fancy PCA math. Note: it defaults to showing PC2 ~ PC1, but you can
 specify whichever axes you want to look at.
 
 The interpretation is actually quite simple. Variables that have arrows
@@ -178,7 +176,7 @@ arrows that are perpendicular to one another. If two arrows are pointing
 in the exact opposite direction, they’re negatively correlated. You can
 double-check all this with the handy correlation matrix that we made
 above, you’ll see that flipper\_length\_mm and body\_mass\_g are
-correlated (r = 0.87) and their arrows are nearly parallel! Sick, but
+correlated (r = 0.87) and their arrows are nearly parallel\! Sick, but
 there’s more information here than just correlation.
 
 The direction and magnitude of each arrow is also telling you how much
@@ -206,7 +204,7 @@ autoplot(pca_values, loadings = TRUE, loadings.label = TRUE,
     ## This warning is displayed once every 8 hours.
     ## Call `lifecycle::last_warnings()` to see where this warning was generated.
 
-![](/figures/PCA-tutorial/unnamed-chunk-7-1.png)
+![](/figures/PCA-tutorial/unnamed-chunk-7-1.png)<!-- -->
 
 So now we can see that the Adelie and Chinstrap points cluster, but they
 also overlap quite a bit. In this non-dimensional space, you would
@@ -218,12 +216,11 @@ plot, but if you want to test clustering, then we’ll have to do that in
 a separate analysis.
 
 Click \[here\]
-(<a href="https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_pca.html" class="uri">https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_pca.html</a>)
+(<https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_pca.html>)
 to see more on <span class="package-style">ggfortify::autoplot()</span>
 for PCA plots.
 
-Part 2: Tying PCAs into other analyses
---------------------------------------
+## Part 2: Tying PCAs into other analyses
 
 You don’t always need to move forward to analyzing your PCA results
 separately, in which case you can skip Part 2 and go straight to Part 3.
@@ -236,9 +233,9 @@ statistically sound? One way to test this is to see if PC1 varies with
 species. To test this, let’s first extract all the PCA values and
 combine them with the penguin data. The PCA values are presented in the
 same order and length as our data, so we can just combine the two
-dataframes together in a tibble (Note: a tibble acts as a <span
-class="package-style">Tidyverse</span> version of a data frame, with
-some minor differences).
+dataframes together in a tibble (Note: a tibble acts as a
+<span class="package-style">Tidyverse</span> version of a data frame,
+with some minor differences).
 
 ``` r
 pca_points <- 
@@ -298,10 +295,9 @@ on the variation in PC1. We won’t plunge too much into these results, if
 you’re not sure how to interpret the model output, stay tuned for our
 Model Interpretation tutorial (coming soon).
 
-Part 3: Beautiful, publication worthy PCA plots
------------------------------------------------
+## Part 3: Beautiful, publication worthy PCA plots
 
-Now for the fun stuff, let’s make some beautiful plots! First, we can
+Now for the fun stuff, let’s make some beautiful plots\! First, we can
 just plot the raw points.
 
 ``` r
@@ -313,7 +309,7 @@ basic_plot <-
 basic_plot
 ```
 
-![](/figures/PCA-tutorial/unnamed-chunk-10-1.png)
+![](/figures/PCA-tutorial/unnamed-chunk-10-1.png)<!-- -->
 
 Now, what if we want to also show the clustering of the species? We can
 add convex hulls to the plots. A convex hull is the smallest polygon
@@ -341,9 +337,9 @@ chull_plot <-
 chull_plot
 ```
 
-![](/figures/PCA-tutorial/unnamed-chunk-11-1.png)
+![](/figures/PCA-tutorial/unnamed-chunk-11-1.png)<!-- -->
 
-We’re almost there! Lastly, let’s put the eigenvectors (i.e., the
+We’re almost there\! Lastly, let’s put the eigenvectors (i.e., the
 arrows) back on the plot. First, we’ll have to create another dataframe
 of eigenvectors and then we can throw them back onto the plot
 
@@ -385,17 +381,16 @@ chull_plot +
            size = 3.5) 
 ```
 
-![](/figures/PCA-tutorial/unnamed-chunk-13-1.png)
+![](/figures/PCA-tutorial/unnamed-chunk-13-1.png)<!-- -->
 
-Some final thoughts
--------------------
+## Some final thoughts
 
 Good job, you just did some multivariate analyses (and it wasn’t *that*
-scary)! The biggest struggle will be at the very beginning when you have
-to choose an ordination method. Nine times out of ten, you’ll either be
-looking at a PCA or an nMDS or sorts. Take the time to refine your
-hypotheses, the question(s) you’re trying to answer, and the format of
-your data. Once you really hone-in on these, the rest will fall right
+scary)\! The biggest struggle will be at the very beginning when you
+have to choose an ordination method. Nine times out of ten, you’ll
+either be looking at a PCA or an nMDS or sorts. Take the time to refine
+your hypotheses, the question(s) you’re trying to answer, and the format
+of your data. Once you really hone-in on these, the rest will fall right
 into place.
 
-Now, go do science you multivariate rockstar!
+Now, go do science you multivariate rockstar\!
