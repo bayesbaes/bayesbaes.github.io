@@ -199,11 +199,6 @@ autoplot(pca_values, loadings = TRUE, loadings.label = TRUE,
          data = penguins, colour = 'species')
 ```
 
-    ## Warning: `select_()` is deprecated as of dplyr 0.7.0.
-    ## Please use `select()` instead.
-    ## This warning is displayed once every 8 hours.
-    ## Call `lifecycle::last_warnings()` to see where this warning was generated.
-
 <img src="/figures/PCA-tutorial/unnamed-chunk-7-1.png" width="80%" />
 
 So now we can see that the Adelie and Chinstrap points cluster, but they
