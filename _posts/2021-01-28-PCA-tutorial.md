@@ -211,7 +211,7 @@ plot, but if you want to test clustering, then we’ll have to do that in
 a separate analysis.
 
 Click
-[here](https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_pca.html)
+<a href="https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_pca.html" target="_blank">here</a>
 to see more on <span class="package-style">ggfortify::autoplot()</span>
 for PCA plots.
 
