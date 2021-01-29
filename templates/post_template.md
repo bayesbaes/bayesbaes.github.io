@@ -5,7 +5,7 @@ authors: "Firstname Lastname"
 tags: tag1 tag2
 output: 
   md_document:
-      variant: markdown_github
+      variant: gfm
       preserve_yaml: true
 ---
 
