@@ -46,7 +46,7 @@ These days, when studying biology, about 90% of our job seems to be doing stats 
       </button>
     </h2>
     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">First of all, rude. But in all seriousness, that's a very fair question! We're not statisticians - and will never claim to be - but we think that's what makes this site useful. Instead of digging too deep into the math and theory behind the stats, we focus on how to better understand and use the most common tools in ecology. As ecologists, we know what it's like to have imperfect data that violate all sorts of model assumptions, so you'll get more pracitcal advice than what a true statistician would provide. And we and our Guest Baes have actually used the tools we write about in our own work with our own messy data, so we can help you with the common pitfalls!</div>
+      <div class="accordion-body">First of all, rude. But in all seriousness, that's a very fair question! We're not statisticians - and will never claim to be - but we think that's what makes this site useful. Instead of digging too deep into the math and theory behind the stats, we focus on how to better understand and use the most common tools in ecology. As ecologists, we know what it's like to have imperfect data that violate all sorts of model assumptions, so you'll get more practical advice than what a true statistician would provide. And we and our Guest Baes have actually used the tools we write about in our own work with our own messy data, so we can help you with the common pitfalls!</div>
     </div>
   </div>
 </div>
