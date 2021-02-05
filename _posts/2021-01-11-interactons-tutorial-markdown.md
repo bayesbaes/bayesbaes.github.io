@@ -572,10 +572,7 @@ Instead, we create a second dummy variable. We still treat one level as
 the intercept value (e.g. sp1), but now we have two coefficients, one
 associated with each other level (e.g. sp2 and sp3).
 
-**y = home\_range =
-<span style="color:#B388EB">m<sub>species2</span></sub>\*speciessp2 +
-<span style="color:#192BC2">m<sub>species3</sub></span>\*speciessp3 +
-intercept**
+**y = home\_range = <span style="color:#B388EB">m<sub>species2</span></sub> \*speciessp2 + <span style="color:#192BC2">m<sub>species3</sub></span> \*speciessp3 + intercept**
 
 For any observation at the second level (e.g. sp2), we could code it as
 a 1 for the speciessp2 term, but as a 0 for the speciessp3 term. For any
@@ -746,21 +743,11 @@ summary(mod_cont)
 
 Let’s write out our y = mx + b statement again:
 
-**home\_range = <span
-style="color:#DE369D">m<sub>body\_size</sub></span>\*body\_size\_center
-+ <span
-style="color:#B388EB">m<sub>head\_width</sub></span>\*head\_width\_center
-+ <span
-style="color:#00A7E1">m<sub>interaction</sub></span>\*body\_size\_center\*head\_width\_center
-+ intercept**
+**home\_range = <span style="color:#DE369D">m<sub>body\_size</sub></span> \*body\_size\_center + <span style="color:#B388EB">m<sub>head\_width</sub></span>\*head\_width\_center + <span style="color:#00A7E1">m<sub>interaction</sub></span> \*body\_size\_center\*head\_width\_center + intercept**
 
 And again with the actual coeffcient values:
 
-**home\_range = <span
-style="color:#DE369D">1.96</span>\*body\_size\_center + <span
-style="color:#B388EB">1.57</span>\*head\_width\_center + <span
-style="color:#00A7E1">0.97</span>\*body\_size\_center\*head\_width\_center
-+ 5.05**
+**home\_range = <span style="color:#DE369D">1.96</span>\*body\_size\_center + <span style="color:#B388EB">1.57</span>\*head\_width\_center + <span style="color:#00A7E1">0.97</span>\*body\_size\_center\*head\_width\_center + 5.05**
 
 Our “intercept lizard” here is a lizard with the mean body size and mean
 head width (since we centered both variables). We can now interpret the
