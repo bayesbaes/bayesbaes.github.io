@@ -572,7 +572,7 @@ Instead, we create a second dummy variable. We still treat one level as
 the intercept value (e.g. sp1), but now we have two coefficients, one
 associated with each other level (e.g. sp2 and sp3).
 
-**y = home\_range = <span style="color:#B388EB">m<sub>species2</span></sub> \*speciessp2 + <span style="color:#192BC2">m<sub>species3</sub></span> \*speciessp3 + intercept**
+**home\_range = <span style="color:#B388EB">m<sub>species2</sub></span> \*speciessp2 + <span style="color:#192BC2">m<sub>species3</sub></span> \*speciessp3 + intercept**
 
 For any observation at the second level (e.g. sp2), we could code it as
 a 1 for the speciessp2 term, but as a 0 for the speciessp3 term. For any
