@@ -396,19 +396,19 @@ size (since we’ve centered our data). We can see that by plugging our
 hypothetical lizard into our model.
 
 -   Term 1
-    ( <span style="color:#DE369D"> **m<sub>sex</sub> </span> \*sexmale**)
+    ( **<span style="color:#DE369D">m<sub>sex</sub> </span> \*sexmale**)
     would be 0, because sex is a dummy variable in this case and coded
     as 0s and 1s. So for sexmale, male would be treated as a 1 and
     female as a 0 since it is the first level of this factor. 3.08 \* 0
     is 0, so this term drops out when we have a female lizard.
 -   Term 2
-    ( <span style="color:#B388EB">**m<sub>body\_size</sub> </span> \*body\_size\_center**)
+    ( **<span style="color:#B388EB">m<sub>body\_size</sub> </span> \*body\_size\_center**)
     would also be 0 because our body size variable is centered. Since we
     subtract the mean body size from each of the observations, a lizard
     *at* the mean body size would have a centered body size of 0.
     -0.008 \* 0 is 0, so this term drops out.
 -   Term 3
-    ( <span style="color:#00A7E1">**m<sub>interaction</sub> </span> \*sexmale\*body\_size\_center**)
+    ( **<span style="color:#00A7E1">m<sub>interaction</sub> </span> \*sexmale\*body\_size\_center**)
     also drops out since we know that sex and body size would both be
     set to 0.
 
