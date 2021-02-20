@@ -58,7 +58,7 @@ known as an alpha value, which <i>we</i> decide. Who’s we? Well, the
 general world of ecologists have all accepted an alpha value of 0.05.
 Why 0.05? That’s an excellent question. You would think this would arise
 from an extensive survey and discussion among scientists all over the
-world. But of course this isn’t what happened. Realistically,some dude
+world. But of course this isn’t what happened. Realistically, some dude
 named sir Henry of Alpha in the early 1900s who had to calculate
 p-values by hand probably chose 0.05 because that was the width of their
 quill. Or the thickness of their scroll. Or the amount of ankle they
