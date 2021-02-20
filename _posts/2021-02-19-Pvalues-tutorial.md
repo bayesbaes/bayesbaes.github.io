@@ -97,15 +97,17 @@ independent variable. Instead of just saying that a variable has a
 significant effect, we can infer whether or not it has a large effect of
 small effect.
 
-<img src="/figures/Pvalues/unnamed-chunk-2-1.png" width="80%" /> This
-plot is known as a coefficient plot and is one way of directly denoting
-effect sizes. The coefficients plotted are just the slope estimates from
-your model and are shown with 95% confidence intervals (CI). In
-frequentist statistics, the confidence interval can be described as: “If
-we take a bunch of repeated samples from the same population and
-calculate a new CI each time, the culmulation of CIs will bracket the
-true population value 95% of the time”. It’s rather complex, but for the
-sake of argument it’s just a way to show uncertainty around an estimate.
+<img src="/figures/Pvalues/unnamed-chunk-2-1.png" width="80%" />
+
+This plot is known as a coefficient plot and is one way of directly
+denoting effect sizes. The coefficients plotted are just the slope
+estimates from your model and are shown with 95% confidence intervals
+(CI). In frequentist statistics, the confidence interval can be
+described as: “If we take a bunch of repeated samples from the same
+population and calculate a new CI each time, the culmulation of CIs will
+bracket the true population value 95% of the time”. It’s rather complex,
+but for the sake of argument it’s just a way to show uncertainty around
+an estimate.
 
 In this example, we have two continuous variables \[X_1\] and \[X_2\].
 In both cases, they would have significant effects. Biologically
@@ -127,12 +129,14 @@ from -1 (perfect negative fit) and 1 (perfect positive fit). We would
 say that the effect is small if the correlation is low (~0.1) and large
 if the correlation is high (\>0.5).
 
-<img src="/figures/Pvalues/unnamed-chunk-4-1.png" width="80%" /> Another
-common effect size measurement is Cohen’s d. Cohen’s d is typically used
-to compare the means between two groups from one population (e.g.,
-control vs. treatment). For this reason, it’s most commonly used in
-meta-analyses. It renders the comparison of two groups down to standard
-deviation units and can thus be easily compared across studies.
+<img src="/figures/Pvalues/unnamed-chunk-4-1.png" width="80%" />
+
+Another common effect size measurement is Cohen’s d. Cohen’s d is
+typically used to compare the means between two groups from one
+population (e.g., control vs. treatment). For this reason, it’s most
+commonly used in meta-analyses. It renders the comparison of two groups
+down to standard deviation units and can thus be easily compared across
+studies.
 
 To get a quick taste of other types of effect sizes, click
 [here](https://www.statisticssolutions.com/statistical-analyses-effect-size/).
