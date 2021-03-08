@@ -122,12 +122,14 @@ compare relative effect sizes.
 
 <img src="/figures/Pvalues/unnamed-chunk-3-1.png" width="80%" />
 
-There are a number of different ways to measure effect sizes. One way is
-to use Pearson’s <i>r</i> correlation. If you recall, correlation
-measures how tight the relationship between two variables is. It varies
-from -1 (perfect negative fit) and 1 (perfect positive fit). We would
-say that the effect is small if the correlation is low (~0.1) and large
-if the correlation is high (\>0.5).
+There are a number of different ways to measure effect sizes. The
+following examples are more common for meta-analyses and less common for
+simply interpreting your models. One way is to use Pearson’s <i>r</i>
+correlation. If you recall, correlation measures how tight the
+relationship between two variables is. It varies from -1 (perfect
+negative fit) and 1 (perfect positive fit). We would say that the effect
+is small if the correlation is low (~0.1) and large if the correlation
+is high (\>0.5).
 
 <img src="/figures/Pvalues/unnamed-chunk-4-1.png" width="80%" />
 
