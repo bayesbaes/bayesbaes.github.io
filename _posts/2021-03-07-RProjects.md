@@ -83,4 +83,5 @@ and then save your beautiful figure in the Figures folder\! HOW
 SOPHISTICATED\!
 
 You can find some more info re: RStudio Projects
-[here](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects).
+href=“<https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects>”
+target="\_blank"\>here</a>.
