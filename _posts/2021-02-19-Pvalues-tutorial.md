@@ -109,16 +109,17 @@ bracket the true population value 95% of the time”. It’s rather complex,
 but for the sake of argument it’s just a way to show uncertainty around
 an estimate.
 
-In this example, we have two continuous variables \[X_1\] and \[X_2\].
-In both cases, they would have significant effects. Biologically
-speaking though, does that mean they have the same effect? We can see
-that \[X_1\] has a smaller effect than \[X_2\], or the slope between y ~
-\[X_2\] is steeper than that of y ~ \[X_1\]. Of course this can be
-conflated by whatever units your x variables are in (what if \[X_1\]
-ranged from 0.1-0.5 and \[X_2\] ranged from 100-500). This is one of the
-reasons why it’s a good rule of thumb to scale and center you
-independent variables - that way, you can use coefficient estimates to
-compare relative effect sizes.
+In this example, we have two continuous variables X<sub>1</sub> and
+X<sub>2</sub>. In both cases, they would have significant effects.
+Biologically speaking though, does that mean they have the same effect?
+We can see that X<sub>1</sub> has a smaller effect than X<sub>2</sub>,
+or the slope between y ~ X<sub>2</sub> is steeper than that of y ~
+X<sub>1</sub>. Of course this can be conflated by whatever units your x
+variables are in (what if X<sub>1</sub> ranged from 0.1-0.5 and
+X<sub>2</sub> ranged from 100-500). This is one of the reasons why it’s
+a good rule of thumb to scale and center you independent variables -
+that way, you can use coefficient estimates to compare relative effect
+sizes.
 
 <img src="/figures/Pvalues/unnamed-chunk-3-1.png" width="80%" />
 
@@ -141,7 +142,7 @@ down to standard deviation units and can thus be easily compared across
 studies.
 
 To get a quick taste of other types of effect sizes, click
-[here](https://www.statisticssolutions.com/statistical-analyses-effect-size/).
+<a href="https://www.statisticssolutions.com/statistical-analyses-effect-size/" target="_blank">here</a>.
 
 ## Part 3: B-B-B-BAYESIAN\!
 
@@ -170,8 +171,9 @@ we use <i>credible intervals</i>, which are defined as there being a X%
 chance that the true population lies within this range. It’s ok to use a
 95% credible interval, but this is actually a point of contention and
 Richard McElreath goes into detail about how this is as arbritary of a
-choice as p=0.05 in his book [Statistical
-Rethinking](https://github.com/rmcelreath/statrethinking_winter2019).
+choice as p=0.05 in his book
+<a href="https://github.com/rmcelreath/statrethinking_winter2019" target="_blank">Statistical
+Rethinking</a>.
 
 We won’t bog down too much into what defines Bayesian statistics (it
 will have its own tutorial, also coming soon). For the purpose of this
