@@ -49,7 +49,7 @@ choice to create a project (1) in a new directory (it will create a new
 folder), (2) in an existing directory (in an existing folder), or (3) by
 cloning a version control repository (e.g., GitHub).
 
-<img src="/figures/RProjects/ProjectsPic.png" width="100%" />
+<img src="/figures/RProjects/ProjectsPic.png" width="60%" />
 
 And there you go\! You can create new R scripts, RMarkdown files, text
 files, etc. and save them in the project. Now, everything is centralized
@@ -61,7 +61,7 @@ files?
 A simple and effective way to organize your files is group all of your
 similar files together.
 
-<img src="/figures/RProjects/FileOrganization.png" width="100%" />
+<img src="/figures/RProjects/FileOrganization.png" width="80%" />
 
 In this case, when you go into the R folder, you’ll see our project
 there (called SizeSpectra.Rproj), and a number of files. Let’s say that
