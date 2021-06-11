@@ -193,8 +193,8 @@ figure.
 
 The dotted line shows us where our model coefficients are being drawn
 from. The intercept is where the pink line (for females) crosses the
-dotted line, the effect of sex (for males) is where the blue line
-crosses the dotted line, the effect of body size is the slope of the
+dotted line, the effect of sex (for males) is the *difference* between where the pink line and blue line
+cross the dotted line, the effect of body size is the slope of the
 pink line, and the interaction is the *difference* between the slopes of
 the blue and pink lines. Now our model output makes a little more sense,
 but it’s kind of annoying to have to mentally extrapolate beyond the
