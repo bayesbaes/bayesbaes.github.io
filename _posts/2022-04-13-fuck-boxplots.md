@@ -160,7 +160,8 @@ sum_stats_gg <- ggpredict(mod1, terms = "species") %>%
   #and then we'll just rename one of the columns so it's easier to plot
   dplyr::rename(species = x,
                 mean_bill_length_mm = predicted) %>% 
-  #you don't have to run this line, but it just removes some of the weird attributes, which makes the table easier to read in this markdown document
+  #you don't have to run this line, but it just removes some of the weird attributes, 
+  #which makes the table easier to read in this markdown document
   as_tibble()
 sum_stats_gg
 ```
