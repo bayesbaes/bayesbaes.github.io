@@ -28,7 +28,7 @@ uncertainty around the mean estimate or the raw data themselves).
 So in this short tutorial we’re going to cover two main things:
 
 1.  Why you should hate boxplots too
-2.  How to make much figures that show differences between groups
+2.  How to make much nicer figures that actually show differences between groups
 
 ## **Part 1**: Why do boxplots suck?
 
