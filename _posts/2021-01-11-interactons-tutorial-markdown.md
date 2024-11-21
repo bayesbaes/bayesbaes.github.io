@@ -517,7 +517,7 @@ style="color:#B388EB">3.02</span>\*speciessp2 - <span
 style="color:#00A7E1">3.93</span>\*sexmale\*speciessp2 + 4.98**
 
 And just as before, we can plug in 1s and 0s into each term depending on
-whether we have female (1) or male (0) lizards and whether they’re
+whether we have female (0) or male (1) lizards and whether they’re
 species1 (0) or species2 (1). Since there are only 4 possible
 combinations of these levels, we can really quickly figure out the means
 for each group just from skimming the coefficient estimates.
