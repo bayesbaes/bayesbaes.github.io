@@ -95,62 +95,26 @@ around that estimate. This is far more helpful in allowing us to
 determine whether groups are really different. Some folks use standard
 error (SE) instead of confidence intervals around their estimates, and
 while that’ll certainly pass peer review, to me it just seems like a
-shady way of making results look significant (because SE is roughly half
+way of trying to make results look significant (because SE is roughly half
 of the CI). So let’s stick with the CI.
 
 There are two ways I generally go about doing this. You can either
-calculate these values manually or use a handy package like
+use ggplot's internal CI plotting function or use a handy package like
 [ggeffects](https://strengejacke.github.io/ggeffects/index.html) to
-extract this info right away! If you are running just a simple linear
+extract this info to then plot! If you are running just a simple linear
 model with only one predictor, either way will work fine, but as you
 move into more complicated generalized and/or mixed effects models, the
 ggeffects method will be a little easier (and slightly more precise!).
-Once you’ve calculated these values, you can plot them directly on top
-of your raw data.
 
-Here is how to do that manually:
+Here is how to do that directly in ggplot:
 
 ``` r
-#now we just need to make a second dataframe with the summary stats
-sum_stats_manual <- df %>% 
-  group_by(species) %>% #group_by() tells R that it should do everything that we 
-  #tell it after this to each species separately
-  #then we're going to calculate all the summary stats we're interested in,
-  #including standard deviation (i.e., the spread of the data), standard error
-  #(i.e., our uncertainty around the mean estimates), and the confidence 
-  #intervals (i.e., another description of the uncertainty around the mean)
-  summarize(mean_bill_length_mm = mean(bill_length_mm, na.rm=TRUE),
-            sd_bill_length_mm = sd(bill_length_mm, na.rm=TRUE),
-            n = n(),
-            se_bill_length_mm = sd_bill_length_mm/sqrt(n),
-            ci_bill_length_mm = 1.96 * se_bill_length_mm) %>%  
-    #need to add the na.rm part here so R ignores the NAs when calculating mean 
-    #and SD
-  #then create a new column for the upper and lower edge of the errorbar for 
-  #for each of the three types of error
-  mutate(sd_lower = mean_bill_length_mm - sd_bill_length_mm, 
-         sd_upper = mean_bill_length_mm + sd_bill_length_mm,
-         se_lower = mean_bill_length_mm - se_bill_length_mm, 
-         se_upper = mean_bill_length_mm + se_bill_length_mm,
-         ci_lower = mean_bill_length_mm - ci_bill_length_mm, 
-         ci_upper = mean_bill_length_mm + ci_bill_length_mm,) %>% 
-  ungroup() #this tells R that if we do anything else to the dataframe, we don't
-  #want it to separate by species anymore - always a good idea to use at the end
-  #of a series of functions if you use group_by
-
-#and we can take a look at that
-sum_stats_manual
+#note that you'll need the Hmisc package installed for ggplot2 to call on
+penguin_plot_default <- ggplot(data = df, aes (x = species, y = bill_length_mm)) + 
+  stat_summary(geom = "errorbar", fun.data = mean_cl_normal, conf.int=0.95, width = 0.2) +
+  stat_summary(geom = "point", fun.y = mean, size = 1.2) +
+  theme_classic()
 ```
-
-    ## # A tibble: 3 x 12
-    ##   species   mean_bill_length_mm sd_bill_length_mm     n se_bill_length_mm
-    ##   <fct>                   <dbl>             <dbl> <int>             <dbl>
-    ## 1 Adelie                   38.8              2.66   152             0.216
-    ## 2 Chinstrap                48.8              3.34    68             0.405
-    ## 3 Gentoo                   47.5              3.08   124             0.277
-    ## # ... with 7 more variables: ci_bill_length_mm <dbl>, sd_lower <dbl>,
-    ## #   sd_upper <dbl>, se_lower <dbl>, se_upper <dbl>, ci_lower <dbl>,
-    ## #   ci_upper <dbl>
 
 And here’s how to do that with the ggpredict function from the ggeffects
 package:
@@ -172,9 +136,6 @@ sum_stats_gg
     ## 1 Adelie                   38.8     0.241     38.3      39.3 1    
     ## 2 Chinstrap                48.8     0.359     48.1      49.5 1    
     ## 3 Gentoo                   47.5     0.267     47.0      48.0 1
-
-Whichever way you end up using, you can then plot these means and
-confidence intervals instead of the boxplot:
 
 ``` r
 penguin_plot <- ggplot() +
@@ -202,6 +163,8 @@ penguin_plot
 ```
 
 <img src="/figures/fuck_boxplots/plot final-1.png" width="80%" />
+
+Whichever way you end up using, you end up with a lovely replacement to the boxplot.
 
 And now we can see the significant differences more clearly! The only
 important thing we’re missing from the original boxplot is some measure
