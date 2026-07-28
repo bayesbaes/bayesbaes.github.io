@@ -97,3 +97,7 @@ nav {
  background-color: transparent;
  border: 5px solid #FC9400;
 }
+
+ul.sidebar-list a {
+  color: #8411DA;
+}
