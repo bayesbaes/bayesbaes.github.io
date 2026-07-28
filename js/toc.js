@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     link.href = `#${heading.id}`;
     link.textContent = heading.textContent;
     link.style.textDecoration = 'none';
-    link.style.color = '#0366d6'; // GitHub blue
+    link.style.color = '#8411DA'; // GitHub blue
 
     listItem.appendChild(link);
     tocList.appendChild(listItem);
