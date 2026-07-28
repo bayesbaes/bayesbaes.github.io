@@ -12,6 +12,10 @@ nav {
   font-weight: bold;
 }
 
+ul a {
+  color: #8411DA;
+}
+
 .bg {
   /* The image used */
   background-image: url("/assets/images/Traceplot.jpg");
