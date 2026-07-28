@@ -12,10 +12,6 @@ nav {
   font-weight: bold;
 }
 
-ul a {
-  color: #8411DA;
-}
-
 .bg {
   /* The image used */
   background-image: url("/assets/images/Traceplot.jpg");
@@ -100,8 +96,4 @@ ul a {
  color: white;
  background-color: transparent;
  border: 5px solid #FC9400;
-}
-
-.sidebar-list a {
-  color: #8411DA;
 }
